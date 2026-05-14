@@ -7,9 +7,11 @@ import Footer from "@/components/global/Footer.astro";
 import Navigation from "@/components/global/Navigation.astro";
 // Accessibility
 import SkipLink from "@/components/global/SkipLink.astro";
+// Project Banner
+import ProjectBanner from "@/components/global/ProjectBanner.astro";
 // Hides the  navigation, or footer on selected screens by passing props:
-// <BaseLayout hideNavigation={true} hideFooter={true}>
-const { hideNavigation = false, hideFooter = false } = Astro.props;
+// <BaseLayout hideBanner={true} hideNavigation={true} hideFooter={true}>
+const { hideBanner = false, hideNavigation = false, hideFooter = false } = Astro.props;
 ---
 
 <html lang="de" class="scroll-smooth">
@@ -18,6 +20,7 @@ const { hideNavigation = false, hideFooter = false } = Astro.props;
   </head>
   <body class="flex flex-col bg-white min-h-dvh">
     <SkipLink />
+    {!hideBanner && <ProjectBanner />}
     {!hideNavigation && <Navigation />}
     <main id="main-content" class="grow"><slot /></main>
     {!hideFooter && <Footer />}
