@@ -4,7 +4,7 @@
 @theme {
   --font-sans: "Geist", sans-serif;
 
-  /* Accent  */
+  /* Accent (CityTrail Brand – ein lebendiges Blau/Türkis für Reise-Entdeckungen) */
 --color-accent-50: oklch(0.966 0.016 262.8);
 --color-accent-100: oklch(0.922 0.037 267.4);
 --color-accent-200: oklch(0.863 0.067 265.4);
@@ -25,7 +25,62 @@
   --color-base-500: oklch(0.551 0.027 264.364);
   --color-base-600: oklch(0.446 0.03 256.802);
   --color-base-700: oklch(0.373 0.034 259.733);
-  --color-base-800: oklch(0.278 0.033 256.848); /* Default */
+  --color-base-800: oklch(0.278 0.033 256.848);
   --color-base-900: oklch(0.21 0.034 264.665);
   --color-base-950: oklch(0.13 0.028 261.692);
+}
+
+/* ========== WCAG / Barrierefreiheit ========== */
+
+/* Skip-Link – nur sichtbar bei Fokus (WCAG 2.4.1) */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0.5rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--color-accent-950);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0 0 0.5rem 0.5rem;
+  text-decoration: none;
+  transition: top 0.1s ease;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid var(--color-accent-400);
+  outline-offset: 2px;
+}
+
+/* Focus-Stile für Tastaturnavigation (WCAG 2.4.7) */
+:focus-visible {
+  outline: 3px solid var(--color-accent-500);
+  outline-offset: 3px;
+  border-radius: 0.25rem;
+}
+
+/* Fokus bei Button – wir behalten die transition aber überschreiben outline */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--color-accent-500);
+  outline-offset: 3px;
+}
+
+/* Sanftes Scrollen respektiert reduced-motion (WCAG 2.3.3) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
 }

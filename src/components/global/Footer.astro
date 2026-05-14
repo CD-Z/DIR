@@ -6,12 +6,21 @@ import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 const sections = [
     {
-        title: "All pages",
+        title: "Seiten",
         links: [
-            { name: "Home", href: "/" },
-            { name: "Terms", href: "/terms" },
-            { name: "Sign up", href: "/signup" },
-            { name: "Sign In", href: "/signup" },
+            { name: "Startseite", href: "/" },
+            { name: "Über uns", href: "/about" },
+            { name: "Barrierefreiheit", href: "/accessibility" },
+            { name: "Lizenz", href: "/license" },
+            { name: "Urheberrechte", href: "/credits" },
+        ],
+    },
+    {
+        title: "Rechtliches",
+        links: [
+            { name: "AGB", href: "/terms" },
+            { name: "Login", href: "/login" },
+            { name: "Registrieren", href: "/signup" },
         ],
     },
 ];
@@ -21,13 +30,13 @@ const currentYear = new Date().getFullYear();
 <footer>
     <Wrapper variant="standard" class="py-12">
         <div
-            class="grid grid-cols-2 lg:grid-cols-4 items-start gap-x-8 gap-y-24"
+            class="grid grid-cols-2 lg:grid-cols-5 items-start gap-x-8 gap-y-24"
         >
             <a href="/">
                 <Logo class="textBase font-medium" />
             </a>
             <div
-                class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-4 lg:col-span-3"
+                class="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-4 lg:col-span-4"
             >
                 {
                     sections.map(({ title, links }) => (

@@ -6,54 +6,54 @@ import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 import Plus from "@/components/fundations/icons/Plus.astro";
 const faqs = [
   {
-    question: "What is a CRM system?",
+    question: "Was ist CityTrail?",
     answer:
-      "A CRM (Customer Relationship Management) system is a software platform designed to help businesses manage and analyze customer interactions and data throughout the customer lifecycle.",
+      "CityTrail ist eine mobile App, die dir hilft, Städte zu entdecken und Reisen zu planen. Du findest Informationen zu Sehenswürdigkeiten, Restaurants, Hotels und Bars – alles an einem Ort.",
   },
   {
-    question: "How do I get started with your CRM?",
+    question: "Ist CityTrail wirklich kostenlos?",
     answer:
-      "Simply sign up for an account, import your customer data, and start using our intuitive dashboard to manage your customer relationships effectively.",
+      "Ja, die Basisversion von CityTrail ist kostenlos. Du kannst damit 5 Städte erkunden, Community-Bewertungen lesen und öffentliche Reisepläne durchstöbern. Erst für detaillierte Stadtführer und Offline-Karten fallen einmalige Kosten an.",
   },
   {
-    question: "What features does your CRM offer?",
+    question: "Wie funktionieren die Stadtpakete?",
     answer:
-      "We provide contact management, sales pipeline tracking, email integration, reporting and analytics, task automation, and customer communication tools.",
+      "Stadtpakete sind einmalige Käufe. Du erwirbst den vollständigen Reiseführer für eine Stadt inklusive Offline-Karten, Navigation und allen Empfehlungen – lebenslang gültig, ohne Abo.",
   },
   {
-    question: "Is there a free trial available?",
+    question: "Kann ich Reisepläne mit Freunden teilen?",
     answer:
-      "Yes, we offer a 14-day free trial for new users to explore all our CRM features and see how it can benefit your business.",
+      "Ja! Du kannst deine persönlichen Reisepläne erstellen und mit Freunden oder der ganzen Community teilen. So könnt ihr eure Reisen gemeinsam planen.",
   },
   {
-    question: "Can I integrate your CRM with other tools?",
+    question: "Sind die Karten auch offline nutzbar?",
     answer:
-      "Absolutely! Our CRM supports integrations with popular business tools like Gmail, Outlook, Slack, Zapier, and many other marketing and sales platforms.",
+      "Ja, mit einem gekauften Stadtpaket stehen dir alle Karten und Navigationsdaten offline zur Verfügung. Perfekt, um im Ausland keine Roaming-Gebühren zu zahlen.",
   },
   {
-    question: "What kind of support do you provide?",
+    question: "Wie aktuell sind die Informationen?",
     answer:
-      "We offer 24/7 customer support via chat, email, and phone, plus a comprehensive knowledge base, video tutorials, and dedicated account managers for enterprise clients.",
+      "Unsere Inhalte werden regelmäßig von der Community und unserem Team aktualisiert. Du findest für jede Stadt die aktuellsten Öffnungszeiten, Bewertungen und Empfehlungen.",
   },
   {
-    question: "Is my customer data secure?",
+    question: "Kann ich als Nutzer Bewertungen schreiben?",
     answer:
-      "Yes, we use industry-standard encryption, secure data centers, and comply with GDPR and other privacy regulations to protect your customer data.",
+      "Ja, nach dem Kauf eines Stadtpakets kannst du Bewertungen zu Sehenswürdigkeiten, Restaurants und Hotels schreiben und so anderen Reisenden helfen.",
   },
   {
-    question: "Can I upgrade or downgrade my plan anytime?",
+    question: "Welche Städte sind verfügbar?",
     answer:
-      "Yes, you can change your plan at any time through your account settings. Upgrades take effect immediately, while downgrades apply at the next billing cycle.",
+      "Wir starten mit europäischen Hauptstädten und erweitern unser Angebot kontinuierlich. Eine aktuelle Liste findest du in der App. Mit dem Entdecker-Pass hast du Zugriff auf alle verfügbaren Städte.",
   },
   {
-    question: "Do you offer training for your CRM?",
+    question: "Gibt es eine Geld-zurück-Garantie?",
     answer:
-      "We provide extensive training resources including video tutorials, webinars, live training sessions, and a community forum where users can share tips and best practices.",
+      "Ja, für Stadtpakete bieten wir eine 14-tägige Geld-zurück-Garantie, falls du mit dem Inhalt nicht zufrieden sein solltest.",
   },
   {
-    question: "What if I need to cancel my subscription?",
+    question: "Wie kann ich CityTrail herunterladen?",
     answer:
-      "You can cancel anytime from your account dashboard. We'll provide data export options and process any refunds according to our policy.",
+      "CityTrail ist im Apple App Store und bei Google Play erhältlich. Folge einfach dem Download-Link auf unserer Website.",
   },
 ];
 ---
@@ -67,37 +67,37 @@ const faqs = [
           variant="textSM"
           class="leading-normal font-bold uppercase text-accent-700"
         >
-          faq
+          FAQ
         </Text>
         <Text
           tag="h2"
           variant="displayMD"
           class="tracking-tight mt-4 font-semibold text-base-900"
         >
-          Frequently asked questions
+          Häufig gestellte Fragen
         </Text>
         <Text
           tag="p"
           variant="textBase"
           class="mt-4 text-base-500 font-medium text-balance"
         >
-          Answers to commonly asked questions about our CRM platform
+          Antworten auf die wichtigsten Fragen zu CityTrail.
         </Text>
       </div>
       <div class="lg:col-span-2">
         {
           faqs.map((faq) => (
             <details class="group pb-4">
-              <summary class="cursor-pointer flex items-center justify-between w-full  text-left font-medium select-none text-base-600 hover:text-accent-800 ">
+              <summary class="cursor-pointer flex items-center justify-between w-full text-left font-medium select-none text-base-600 hover:text-accent-800">
                 <Text tag="h3" variant="textLG">
                   {faq.question}
                 </Text>
-                <Plus class="size-5 duration-300 ease-out text-base-500 group-open:rotate-45" />
+                <Plus class="size-5 duration-300 ease-out text-base-500 group-open:rotate-45 shrink-0" />
               </summary>
               <Text
                 tag="p"
                 variant="textBase"
-                class="pb-4 pt-2  text-base-500 text-balance"
+                class="pb-4 pt-2 text-base-500 text-balance"
               >
                 {faq.answer}
               </Text>

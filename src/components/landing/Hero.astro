@@ -1,7 +1,7 @@
 ---
 // Assets
 import { Image } from "astro:assets";
-import DashboardLight from "@/images/dashboardLight.svg";
+import heroCity from "@/images/unsplash/yoav-aziz-eNb4JSCt9Uk-unsplash.jpg";
 // Fundations
 import Text from "@/components/fundations/elements/Text.astro";
 import Button from "@/components/fundations/elements/Button.astro";
@@ -9,36 +9,56 @@ import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 ---
 
 <section class="overflow-hidden">
-    <Wrapper class="pt-32">
-        <div class="max-w-2xl text-center mx-auto lg:text-balance">
-            <Text
-                tag="span"
-                variant="textSM"
-                class="leading-normal font-bold uppercase text-accent-700"
-            >
-                welcome
-            </Text>
-            <Text
-                tag="h1"
-                variant="displayMD"
-                class="tracking-tight mt-4 font-semibold text-base-900"
-            >
-                A starter template built with Astro and Tailwind CSS for your
-                next project
-            </Text>
-            <Text
-                tag="p"
-                variant="textBase"
-                class="mt-4 text-base-500 font-medium text-balance"
-            >
-                Feature sections, a pricing table, testimonial, CTA, and full
-                forms.
-            </Text>
-            <div class="flex flex-wrap items-center gap-2 justify-center mt-12">
+    <Wrapper class="pt-20 lg:pt-32">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="max-w-xl lg:text-left">
+                <Text
+                    tag="span"
+                    variant="textSM"
+                    class="leading-normal font-bold uppercase text-accent-700"
+                >
+                    CityTrail App
+                </Text>
+                <Text
+                    tag="h1"
+                    variant="displayLG"
+                    class="tracking-tight mt-4 font-semibold text-base-900"
+                >
+                    Entdecke Städte. Plane Reisen. Teile Erlebnisse.
+                </Text>
+                <Text
+                    tag="p"
+                    variant="textBase"
+                    class="mt-4 text-base-500 font-medium text-balance"
+                >
+                    Mit CityTrail findest du die besten Sehenswürdigkeiten, Restaurants und Hotels
+                    in jeder Stadt. Erstelle persönliche Reisepläne und lass dich von anderen
+                    Reisenden inspirieren.
+                </Text>
+                <div class="flex flex-wrap items-center gap-3 mt-10">
+                    <Button variant="default" size="base" isLink={true} href="/#pricing">
+                        Jetzt entdecken
+                    </Button>
+                    <Button variant="muted" size="base" isLink={true} href="/about">
+                        Mehr erfahren
+                    </Button>
+                </div>
             </div>
-        </div>
-
-        <div class="relative w-full mx-auto max-w-7xl items-center py-12 pb-12">
+            <div class="relative">
+                <Image
+                    src={heroCity}
+                    alt="Luftaufnahme einer europäischen Stadt mit historischer Architektur, die zum Entdecken einlädt"
+                    class="rounded-2xl shadow-xl object-cover w-full h-[400px] lg:h-[500px]"
+                    loading="eager"
+                    width={800}
+                    height={500}
+                    format="webp"
+                />
+                <div class="absolute -bottom-4 -left-4 bg-white rounded-xl shadow-lg px-5 py-3 hidden sm:block" aria-hidden="true">
+                    <p class="text-sm font-medium text-base-900">⭐ 4.8 / 5.0</p>
+                    <p class="text-xs text-base-500">Bewertungen</p>
+                </div>
+            </div>
         </div>
     </Wrapper>
 </section>

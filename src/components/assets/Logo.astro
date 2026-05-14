@@ -1,10 +1,30 @@
 ---
-// Logo Component This component renders an SVG logo and accepts props for customization.
-// Props: - class: A string of additional classes to style the SVG.
-// - ...rest: Any other valid attributes for an <svg> element (e.g., id, style, role, aria-label, etc.).
-// Example Usage: <Logo class="my-custom-class" /> or <Logo id="logo-id" style="width: 50px; height: 50px;" />
-// ADd your logo here and pass the   class={className} {...rest} like on the example
+// Logo Component – CityTrail Wortbildmarke
+// Props: class, ...rest
 const { class: className = "", ...rest } = Astro.props;
 ---
 
-<span class={className} {...rest}>Your Logo Text</span>
+<span
+    class={`inline-flex items-center gap-2 text-xl font-bold tracking-tight ${className}`}
+    {...rest}
+    aria-label="CityTrail Startseite"
+>
+    <!-- Bildmarke: stilisierter Kompass/Trail -->
+    <svg
+        width="28"
+        height="28"
+        viewBox="0 0 28 28"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+        class="shrink-0 antialiased"
+    >
+        <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="2.5"
+        ></circle>
+        <path
+            d="M14 4 L16 12 L24 14 L16 16 L14 24 L12 16 L4 14 L12 12 Z"
+            fill="currentColor"></path>
+    </svg>
+    <!-- Wortmarke -->
+    <span class="text-accent-950">CityTrail</span>
+</span>
