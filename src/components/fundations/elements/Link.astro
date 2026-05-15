@@ -1,0 +1,8 @@
+---
+const { class: className = "", href, ...rest } = Astro.props;
+const url = import.meta.env.BASE_URL.slice(0, -1);
+---
+
+<a href={`${url}${href}`} class={` ${className}`} {...rest}>
+    <slot />
+</a>

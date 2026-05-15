@@ -5,6 +5,7 @@ import Logo from "@/components/assets/Logo.astro";
 import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 import Address from "../assets/Address.astro";
+import Link from "../fundations/elements/Link.astro";
 const sections = [
     {
         title: "Seiten",
@@ -35,9 +36,9 @@ const currentYear = new Date().getFullYear();
             class="grid grid-cols-2 lg:grid-cols-5 items-start gap-x-8 gap-y-24"
         >
             <div class="flex flex-col justify-between h-full">
-                <a href="/">
+                <Link href="/">
                     <Logo class="textBase font-medium" />
-                </a>
+                </Link>
                 <Address />
             </div>
             <div
@@ -56,12 +57,12 @@ const currentYear = new Date().getFullYear();
                             <ul role="list" class="mt-4 space-y-1">
                                 {links.map(({ name, href }) => (
                                     <li>
-                                        <a
+                                        <Link
                                             href={href}
                                             class="text-sm font-medium text-base-500 hover:text-accent-600"
                                         >
                                             {name}
-                                        </a>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>

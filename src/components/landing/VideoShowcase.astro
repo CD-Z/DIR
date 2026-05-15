@@ -4,6 +4,7 @@ import heroVideo from "@/images/pexels/julio-lopez.webm";
 // Fundations
 import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import Link from "../fundations/elements/Link.astro";
 ---
 
 <section id="video-showcase" class="bg-base-50" aria-labelledby="video-heading">
@@ -45,15 +46,14 @@ import Wrapper from "@/components/fundations/containers/Wrapper.astro";
                 autoplay
                 muted
                 loop
-                
                 playsinline
                 class="rounded-2xl shadow-xl w-full"
                 preload="auto"
                 aria-label="Drohnenaufnahme eines historischen Palastgebäudes – die Kamera filmt von Außen durch die Fenster, während Besucher durch die Gänge spazieren"
             >
                 Ihr Browser unterstützt leider keine Videowiedergabe.
-                <a href="/credits"
-                    >Hier finden Sie eine Beschreibung des Materials.</a
+                <Link href="/credits"
+                    >Hier finden Sie eine Beschreibung des Materials.</Link
                 >
             </video>
 

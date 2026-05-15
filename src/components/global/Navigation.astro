@@ -7,6 +7,7 @@ import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 //Icons
 import Burger from "@/components/fundations/icons/Burger.astro";
 import Close from "@/components/fundations/icons/Close.astro";
+import Link from "../fundations/elements/Link.astro";
 const navItems = [
     { href: "/#features", text: "Features" },
     { href: "/#pricing", text: "Preise" },
@@ -24,9 +25,9 @@ const navItems = [
                 role="complementary"
                 class="flex flex-row items-center justify-between lg:justify-start"
             >
-                <a href="/">
+                <Link href="/">
                     <Logo class="textBase font-medium" />
-                </a>
+                </Link>
                 <button
                     id="nav-toggle"
                     class="inline-flex items-center justify-center p-2 text-base-400 hover:text-black focus:outline-none focus:text-black md:hidden"

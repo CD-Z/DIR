@@ -5,7 +5,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  // add yur domain name here
   site: "https://cd-z.github.io/",
   base: "/DIR/",
   integrations: [sitemap()],
