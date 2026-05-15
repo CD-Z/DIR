@@ -1,0 +1,146 @@
+---
+// Assets
+import heroVideo from "@/images/pexels/julio-lopez.webm";
+// Fundations
+import Text from "@/components/fundations/elements/Text.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+---
+
+<section id="video-showcase" class="bg-base-50" aria-labelledby="video-heading">
+    <Wrapper variant="standard" class="py-20">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <Text
+                tag="span"
+                variant="textSM"
+                class="leading-normal font-bold uppercase text-accent-700"
+            >
+                Impressionen
+            </Text>
+            <Text
+                id="video-heading"
+                tag="h2"
+                variant="displayMD"
+                class="tracking-tight mt-4 font-semibold text-base-900"
+            >
+                Tauche ein in die Welt des Reisens
+            </Text>
+            <Text
+                tag="p"
+                variant="textBase"
+                class="mt-4 text-base-500 font-medium"
+            >
+                Ob prächtige Paläste oder versteckte Gassen – CityTrail zeigt
+                dir die schönsten Orte.
+            </Text>
+        </div>
+
+        <div
+            class="relative mx-auto max-w-4xl"
+            role="region"
+            aria-label="Videovorschau: Drohnenflug durch ein historisches Gebäude"
+        >
+            <video
+                id="showcase-video"
+                src={heroVideo}
+                autoplay
+                muted
+                loop
+                
+                playsinline
+                class="rounded-2xl shadow-xl w-full"
+                preload="auto"
+                aria-label="Drohnenaufnahme eines historischen Palastgebäudes – die Kamera filmt von Außen durch die Fenster, während Besucher durch die Gänge spazieren"
+            >
+                Ihr Browser unterstützt leider keine Videowiedergabe.
+                <a href="/credits"
+                    >Hier finden Sie eine Beschreibung des Materials.</a
+                >
+            </video>
+
+            <!-- Play/Pause Button -->
+            <div class="absolute bottom-4 right-4 flex gap-2">
+                <button
+                    id="video-toggle-btn"
+                    class="bg-white/80 backdrop-blur-sm hover:bg-white rounded-full p-2.5 shadow-md transition-colors"
+                    aria-label="Video abspielen oder pausieren"
+                    type="button"
+                >
+                    <svg
+                        id="video-pause-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 256 256"
+                        fill="currentColor"
+                        aria-hidden="true"
+                        class="text-base-900"
+                    >
+                        <path
+                            d="M200,32H176a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32ZM80,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H80a16,16,0,0,0,16-16V48A16,16,0,0,0,80,32Z"
+                        ></path>
+                    </svg>
+                    <svg
+                        id="video-play-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 256 256"
+                        fill="currentColor"
+                        aria-hidden="true"
+                        class="text-base-900 hidden"
+                    >
+                        <path
+                            d="M240,128a15.74,15.74,0,0,1-7.73,13.51L88.32,229.65a15.75,15.75,0,0,1-15.92.23A15.62,15.62,0,0,1,64,216.13V39.87a15.62,15.62,0,0,1,8.4-13.75,15.75,15.75,0,0,1,15.92.23l143.95,88.12A15.74,15.74,0,0,1,240,128Z"
+                        ></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </Wrapper>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const video = document.getElementById("showcase-video");
+        const toggleBtn = document.getElementById("video-toggle-btn");
+        const pauseIcon = document.getElementById("video-pause-icon");
+        const playIcon = document.getElementById("video-play-icon");
+        if (!video || !toggleBtn || !pauseIcon || !playIcon) return;
+
+        // prefers-reduced-motion: Autoplay respektieren
+        const reducedMotion = window.matchMedia(
+            "(prefers-reduced-motion: reduce)",
+        );
+        if (reducedMotion.matches) {
+            video.pause();
+            pauseIcon.classList.add("hidden");
+            playIcon.classList.remove("hidden");
+        }
+
+        // Toggle Play/Pause
+        toggleBtn.addEventListener("click", () => {
+            if (video.paused) {
+                video.play();
+                pauseIcon.classList.remove("hidden");
+                playIcon.classList.add("hidden");
+            } else {
+                video.pause();
+                pauseIcon.classList.add("hidden");
+                playIcon.classList.remove("hidden");
+            }
+        });
+
+        // Auf Änderung der Systemeinstellung reagieren
+        reducedMotion.addEventListener("change", (e) => {
+            if (e.matches) {
+                video.pause();
+                pauseIcon.classList.add("hidden");
+                playIcon.classList.remove("hidden");
+            } else {
+                video.play();
+                pauseIcon.classList.remove("hidden");
+                playIcon.classList.add("hidden");
+            }
+        });
+    });
+</script>
