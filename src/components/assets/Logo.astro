@@ -5,26 +5,28 @@ const { class: className = "", ...rest } = Astro.props;
 ---
 
 <span
-    class={`inline-flex items-center gap-2 text-xl font-bold tracking-tight ${className}`}
+    class={`inline-flex items-center gap-0.5 text-xl font-bold tracking-tight ${className}`}
     {...rest}
     aria-label="CityTrail Startseite"
 >
     <!-- Bildmarke: stilisierter Kompass/Trail -->
+    <span class="text-accent-950">City</span>
     <svg
-        width="28"
-        height="28"
-        viewBox="0 0 28 28"
+        width="24"
+        height="24"
+        viewBox="0 0 64 64"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
-        class="shrink-0 antialiased"
+        class="shrink-0 antialiased text-accent-950"
     >
-        <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="2.5"
+        <circle cx="32" cy="32" r="26" stroke="currentColor" stroke-width="5.5"
         ></circle>
         <path
-            d="M14 4 L16 12 L24 14 L16 16 L14 24 L12 16 L4 14 L12 12 Z"
+            d="M32 14L37 27L50 32L37 37L32 50L27 37L14 32L27 27Z"
             fill="currentColor"></path>
+        <circle cx="32" cy="32" r="4" fill="white"></circle>
     </svg>
     <!-- Wortmarke -->
-    <span class="text-accent-950">CityTrail</span>
+    <span class="text-accent-950">Trail</span>
 </span>

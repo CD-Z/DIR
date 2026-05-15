@@ -1,0 +1,29 @@
+<svg
+        width="24"
+        height="24"
+        viewBox="0 0 64 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+    >
+    <style>
+
+    @media (prefers-color-scheme: light) {
+      .mode-inv { fill: #ffffff; }
+      .mode { stroke: #000000; }
+      .mode-f { fill: #000000; }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .mode-inv { fill: #000000; }
+      .mode { stroke: #ffffff; }
+      .mode-f { fill: #ffffff; }
+    }
+  </style>
+        <circle class="mode" cx="32" cy="32" r="26" stroke-width="5.5"
+        ></circle>
+        <path class="mode-f"
+            d="M32 14L37 27L50 32L37 37L32 50L27 37L14 32L27 27Z"
+            ></path>
+        <circle class="mode-inv" cx="32" cy="32" r="4" ></circle>
+    </svg>
