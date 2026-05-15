@@ -1,0 +1,10 @@
+---
+const { class: className = "", ...rest } = Astro.props;
+---
+
+<p class={` ${className}`} {...rest} aria-label="CityTrail Adresse">
+    <span><b>CityTrail GmbH</b></span><br />
+    <span>Resselgasse 4</span><br />
+    <span>1040 Wien</span><br />
+    <span>Österreich</span><br />
+</p>
