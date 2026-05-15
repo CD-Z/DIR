@@ -6,6 +6,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   // add yur domain name here
-  site: "https://cd-z.github.io/DIR/",
+  site: "https://cd-z.github.io/",
+  base: "/DIR/",
   integrations: [sitemap()],
 });
