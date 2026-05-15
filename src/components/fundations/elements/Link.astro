@@ -1,6 +1,7 @@
 ---
 const { class: className = "", href, ...rest } = Astro.props;
-const url = import.meta.env.BASE_URL.slice(0, -1);
+const burl = import.meta.env.BASE_URL;
+const url = burl.endsWith("/") ? burl.slice(0, -1) : burl;
 ---
 
 <a href={`${url}${href}`} class={` ${className}`} {...rest}>
