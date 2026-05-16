@@ -71,7 +71,7 @@ const baseClass = [
     "flex",
     "justify-center",
     "text-center",
-
+    "cursor-pointer",
     "font-medium",
     "items-center",
     "duration-500",
@@ -85,6 +85,8 @@ const baseClass = [
 {
     isLink ? (
         <Link
+            noStyle
+            noUnderline
             href={rest.href}
             class:list={[
                 ...baseClass,

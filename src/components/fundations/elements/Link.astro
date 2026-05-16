@@ -1,15 +1,21 @@
 ---
-const { class: className = "", href, noUnderline, eref, ...rest } = Astro.props;
+const {
+    class: className = "",
+    href,
+    noUnderline,
+    noStyle,
+    eref,
+    ...rest
+} = Astro.props;
 const burl = import.meta.env.BASE_URL;
 const url = burl.endsWith("/") ? burl.slice(0, -1) : burl;
 const underline = noUnderline ? "" : "border-b";
 const ref = href ? `${url}${href}` : eref;
+const baseStyle = noStyle
+    ? ""
+    : "text-accent-600 border-current no-underline transition-colors duration-200 hover:text-accent-700 hover:border-accent-500";
 ---
 
-<a
-    href={`${ref}`}
-    class={`text-accent-600 border-current no-underline transition-colors duration-200 hover:text-accent-700 hover:border-accent-500 ${underline}  ${className}`}
-    {...rest}
->
+<a href={`${ref}`} class={`${baseStyle} ${underline}  ${className}`} {...rest}>
     <slot />
 </a>

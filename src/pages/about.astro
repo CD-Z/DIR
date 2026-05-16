@@ -2,6 +2,8 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import Logo from "@/components/assets/Logo.astro";
+import jingleSrc from "@/components/assets/jingle.wav";
 ---
 
 <BaseLayout>
@@ -22,17 +24,522 @@ import Wrapper from "@/components/fundations/containers/Wrapper.astro";
                             variant="textBase"
                             class="mt-4 text-base-500 font-medium"
                         >
-                            Wir machen Städteentdeckung einfach.
+                            Unternehmen, Marken & Strategie
                         </Text>
                     </div>
                 </div>
 
                 <div class="lg:col-span-2 space-y-16">
-                    <!-- Unternehmen -->
+                    <!-- ───── Unternehmen ───── -->
+                    <div>
+                        <Text
+                            tag="h2"
+                            variant="displaySM"
+                            class="tracking-tight font-semibold text-base-900"
+                        >
+                            Unser Unternehmen
+                        </Text>
+                        <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
+                            <div class="bg-base-50 rounded-xl p-5 text-center">
+                                <Text
+                                    tag="p"
+                                    variant="displayLG"
+                                    class="font-bold text-accent-700">2026</Text
+                                >
+                                <Text
+                                    tag="p"
+                                    variant="textSM"
+                                    class="text-base-500 mt-1"
+                                    >Gründungsjahr</Text
+                                >
+                            </div>
+                            <div class="bg-base-50 rounded-xl p-5 text-center">
+                                <Text
+                                    tag="p"
+                                    variant="displayLG"
+                                    class="font-bold text-accent-700">Wien</Text
+                                >
+                                <Text
+                                    tag="p"
+                                    variant="textSM"
+                                    class="text-base-500 mt-1">Standort</Text
+                                >
+                            </div>
+                            <div class="bg-base-50 rounded-xl p-5 text-center">
+                                <Text
+                                    tag="p"
+                                    variant="displayLG"
+                                    class="font-bold text-accent-700">5</Text
+                                >
+                                <Text
+                                    tag="p"
+                                    variant="textSM"
+                                    class="text-base-500 mt-1">Mitarbeiter</Text
+                                >
+                            </div>
+                        </div>
+                        <Text
+                            tag="p"
+                            variant="textBase"
+                            class="mt-6 text-base-600 leading-relaxed"
+                        >
+                            CityTrail GmbH wurde 2026 in Wien mit der Vision
+                            gegründet, Menschen dabei zu helfen, Städte auf eine
+                            völlig neue Weise zu entdecken. Unser Team aus fünf
+                            Reisenden, Entwicklern und Designern arbeitet
+                            täglich daran, die beste App für Stadtentdeckungen
+                            und Reiseplanung zu entwickeln.
+                        </Text>
+                    </div>
 
-                    <!-- Marke: Wortmarke -->
+                    <!-- ───── Markenstrategie ───── -->
+                    <div>
+                        <Text
+                            tag="h2"
+                            variant="displaySM"
+                            class="tracking-tight font-semibold text-base-900"
+                        >
+                            Unsere Markenstrategie
+                        </Text>
+                        <Text
+                            tag="p"
+                            variant="textBase"
+                            class="mt-4 text-base-600 leading-relaxed"
+                        >
+                            CityTrail schützt drei inhaltlich und rechtlich
+                            eigenständige Markenformen, die gemeinsam das
+                            Wiedererkennungsbild des Unternehmens prägen. Jede
+                            Markenform ist für sich genommen
+                            unterscheidungskräftig und beim
+                            <abbr
+                                title="Amt der Europäischen Union für geistiges Eigentum"
+                                >EUIPO</abbr
+                            >
+                            sowie beim Österreichischen Patentamt zur Eintragung angemeldet.
+                        </Text>
 
-                    <!-- Nizza-Klassifikation -->
+                        <div class="mt-10 space-y-12">
+                            <!-- ═══ 1. Wortbildmarke ═══ -->
+                            <article class="bg-base-50 rounded-2xl p-8 lg:p-10">
+                                <div class="flex items-center gap-4 mb-2">
+                                    <span
+                                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent-700 text-white font-bold text-sm shrink-0"
+                                        aria-hidden="true">1</span
+                                    >
+                                    <div>
+                                        <Text
+                                            tag="h3"
+                                            variant="textLG"
+                                            class="font-semibold text-base-900"
+                                            >Wortbildmarke</Text
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- Visuelle Darstellung -->
+                                <div
+                                    class="mt-6 bg-white rounded-xl border border-base-200 p-6 flex items-center justify-center"
+                                >
+                                    <Logo class="scale-200" />
+                                </div>
+
+                                <div class="mt-6 grid gap-4">
+                                    <div
+                                        class="bg-white rounded-lg p-4 border border-base-200"
+                                    >
+                                        <Text
+                                            tag="p"
+                                            variant="textSM"
+                                            class="font-semibold text-base-900"
+                                            >Beschreibung</Text
+                                        >
+                                        <Text
+                                            tag="p"
+                                            variant="textSM"
+                                            class="mt-1 text-base-500"
+                                        >
+                                            Die Bezeichnung <strong
+                                                >„CityTrail"</strong
+                                            > setzt sich aus den englischen Begriffen
+                                            „City" (Stadt) und „Trail" (Pfad/Weg)
+                                            zusammen. Der Name wird aufgebrochen um
+                                            dazwischen das Logo zu platzieren.
+                                        </Text>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- ═══ 2. Bildmarke ═══ -->
+                            <article class="bg-base-50 rounded-2xl p-8 lg:p-10">
+                                <div class="flex items-center gap-4 mb-2">
+                                    <span
+                                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent-700 text-white font-bold text-sm shrink-0"
+                                        aria-hidden="true">2</span
+                                    >
+                                    <div>
+                                        <Text
+                                            tag="h3"
+                                            variant="textLG"
+                                            class="font-semibold text-base-900"
+                                            >Bildmarke</Text
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- Visuelle Darstellung -->
+                                <div
+                                    class="mt-6 bg-white rounded-xl border border-base-200 p-6 flex items-center justify-center"
+                                >
+                                    <svg
+                                        width="68"
+                                        height="68"
+                                        viewBox="0 0 64 64"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        aria-hidden="true"
+                                        class="shrink-0 antialiased text-accent-950"
+                                    >
+                                        <circle
+                                            cx="32"
+                                            cy="32"
+                                            r="26"
+                                            stroke="currentColor"
+                                            stroke-width="5.5"></circle>
+                                        <path
+                                            d="M32 14L37 27L50 32L37 37L32 50L27 37L14 32L27 27Z"
+                                            fill="currentColor"></path>
+                                        <circle
+                                            cx="32"
+                                            cy="32"
+                                            r="4"
+                                            fill="white"></circle>
+                                    </svg>
+                                </div>
+
+                                <div class="mt-6 grid gap-4">
+                                    <div
+                                        class="bg-white rounded-lg p-4 border border-base-200"
+                                    >
+                                        <Text
+                                            tag="p"
+                                            variant="textSM"
+                                            class="font-semibold text-base-900"
+                                            >Beschreibung</Text
+                                        >
+                                        <Text
+                                            tag="p"
+                                            variant="textSM"
+                                            class="mt-1 text-base-500"
+                                        >
+                                            Die Bildmarke zeigt einen
+                                            stilisierten Kompass.
+                                        </Text>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- ═══ 3. Klangmarke ═══ -->
+                            <article class="bg-base-50 rounded-2xl p-8 lg:p-10">
+                                <div class="flex items-center gap-4 mb-2">
+                                    <span
+                                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-accent-700 text-white font-bold text-sm shrink-0"
+                                        aria-hidden="true">3</span
+                                    >
+                                    <div>
+                                        <Text
+                                            tag="h3"
+                                            variant="textLG"
+                                            class="font-semibold text-base-900"
+                                            >Klangmarke (Hörmarke)</Text
+                                        >
+                                    </div>
+                                </div>
+
+                                <!-- Audio-Player + Noten -->
+                                <div
+                                    class="mt-6 bg-white rounded-xl border border-base-200 p-6"
+                                >
+                                    <div
+                                        class="flex flex-col items-center gap-4"
+                                    >
+                                        <!-- Noten-Darstellung -->
+                                        <div
+                                            class="flex items-center justify-center gap-3 sm:gap-6 text-4xl sm:text-5xl text-accent-700"
+                                        >
+                                            <span class="font-serif">♩</span>
+                                            <span class="font-serif">♪</span>
+                                            <span class="font-serif">♫</span>
+                                            <span class="font-serif">♩</span>
+                                        </div>
+                                        <div
+                                            class="flex items-center justify-center gap-3 sm:gap-6 mt-1 text-sm text-base-400"
+                                        >
+                                            <span>C</span>
+                                            <span>(A/G)</span>
+                                            <span>(F/E)</span>
+                                            <span>C</span>
+                                        </div>
+
+                                        <!-- Audio-Player -->
+                                        <div
+                                            class="flex items-center gap-4 mt-2"
+                                        >
+                                            <button
+                                                id="jingle-play-btn"
+                                                class="inline-flex items-center gap-2 bg-accent-700 hover:bg-accent-800 text-white font-medium rounded-full px-6 py-2.5 text-sm transition-colors focus:outline-accent-500"
+                                                aria-label="Jingle abspielen"
+                                                type="button"
+                                            >
+                                                <svg
+                                                    id="jingle-play-icon"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="18"
+                                                    height="18"
+                                                    viewBox="0 0 256 256"
+                                                    fill="currentColor"
+                                                    aria-hidden="true"
+                                                >
+                                                    <path
+                                                        d="M240,128a15.74,15.74,0,0,1-7.73,13.51L88.32,229.65a15.75,15.75,0,0,1-15.92.23A15.62,15.62,0,0,1,64,216.13V39.87a15.62,15.62,0,0,1,8.4-13.75,15.75,15.75,0,0,1,15.92.23l143.95,88.12A15.74,15.74,0,0,1,240,128Z"
+                                                    ></path>
+                                                </svg>
+                                                <svg
+                                                    id="jingle-stop-icon"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    width="18"
+                                                    height="18"
+                                                    viewBox="0 0 256 256"
+                                                    fill="currentColor"
+                                                    aria-hidden="true"
+                                                    class="hidden"
+                                                >
+                                                    <path
+                                                        d="M200,32H176a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h24a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32ZM80,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H80a16,16,0,0,0,16-16V48A16,16,0,0,0,80,32Z"
+                                                    ></path>
+                                                </svg>
+                                                <span id="jingle-btn-text"
+                                                    >Jingle anhören</span
+                                                >
+                                            </button>
+                                            <audio
+                                                id="jingle-audio"
+                                                preload="none"
+                                                aria-label="CityTrail Klangmarke"
+                                            >
+                                                <source
+                                                    src={jingleSrc}
+                                                    type="audio/wav"
+                                                />
+                                                Ihr Browser unterstützt keine Audiowiedergabe.
+                                            </audio>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-6 grid gap-4">
+                                    <div
+                                        class="bg-white rounded-lg p-4 border border-base-200"
+                                    >
+                                        <Text
+                                            tag="p"
+                                            variant="textSM"
+                                            class="font-semibold text-base-900"
+                                            >Beschreibung</Text
+                                        >
+                                        <Text
+                                            tag="p"
+                                            variant="textSM"
+                                            class="mt-1 text-base-500"
+                                        >
+                                            Die Klangmarke ist ein kurzer,
+                                            selbst komponierter 4-Schlag-Jingle
+                                            in C-Dur mit den Tönen C – (A/G) –
+                                            (F/E) – C.
+                                        </Text>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <script>
+                                document.addEventListener(
+                                    "DOMContentLoaded",
+                                    () => {
+                                        const audio =
+                                            document.getElementById(
+                                                "jingle-audio",
+                                            );
+                                        const btn =
+                                            document.getElementById(
+                                                "jingle-play-btn",
+                                            );
+                                        const playIcon =
+                                            document.getElementById(
+                                                "jingle-play-icon",
+                                            );
+                                        const stopIcon =
+                                            document.getElementById(
+                                                "jingle-stop-icon",
+                                            );
+                                        const btnText =
+                                            document.getElementById(
+                                                "jingle-btn-text",
+                                            );
+                                        if (
+                                            !audio ||
+                                            !btn ||
+                                            !playIcon ||
+                                            !stopIcon ||
+                                            !btnText
+                                        )
+                                            return;
+
+                                        btn.addEventListener("click", () => {
+                                            if (audio.paused) {
+                                                audio.play();
+                                                playIcon.classList.add(
+                                                    "hidden",
+                                                );
+                                                stopIcon.classList.remove(
+                                                    "hidden",
+                                                );
+                                                btnText.textContent = "Stopp";
+                                                btn.setAttribute(
+                                                    "aria-label",
+                                                    "Jingle stoppen",
+                                                );
+                                            } else {
+                                                audio.pause();
+                                                audio.currentTime = 0;
+                                                playIcon.classList.remove(
+                                                    "hidden",
+                                                );
+                                                stopIcon.classList.add(
+                                                    "hidden",
+                                                );
+                                                btnText.textContent =
+                                                    "Jingle anhören";
+                                                btn.setAttribute(
+                                                    "aria-label",
+                                                    "Jingle abspielen",
+                                                );
+                                            }
+                                        });
+
+                                        audio.addEventListener("ended", () => {
+                                            playIcon.classList.remove("hidden");
+                                            stopIcon.classList.add("hidden");
+                                            btnText.textContent =
+                                                "Jingle anhören";
+                                            btn.setAttribute(
+                                                "aria-label",
+                                                "Jingle abspielen",
+                                            );
+                                        });
+                                    },
+                                );
+                            </script>
+                        </div>
+                    </div>
+
+                    <!-- ───── Nizza-Klassifikation ───── -->
+                    <div>
+                        <Text
+                            tag="h2"
+                            variant="displaySM"
+                            class="tracking-tight font-semibold text-base-900"
+                        >
+                            Nizza-Klassifikation
+                        </Text>
+                        <Text
+                            tag="p"
+                            variant="textBase"
+                            class="mt-2 text-base-500"
+                        >
+                            Alle drei Markenformen sind für folgende
+                            Nizza-Klassen zur Eintragung angemeldet:
+                        </Text>
+
+                        <div class="mt-6 space-y-4">
+                            <div class="border border-base-200 rounded-xl p-5">
+                                <div class="flex items-start gap-4">
+                                    <span
+                                        class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-accent-700 text-white font-bold text-sm shrink-0"
+                                        aria-hidden="true">9</span
+                                    >
+                                    <div>
+                                        <Text
+                                            tag="h3"
+                                            variant="textLG"
+                                            class="font-semibold text-base-900"
+                                            >Klasse 9 – Software & Apps</Text
+                                        >
+                                        <Text
+                                            tag="p"
+                                            variant="textBase"
+                                            class="mt-1 text-base-600"
+                                        >
+                                            Die Software wird als
+                                            herunterladbare Applikation für
+                                            Android und IOS zur verfügung
+                                            gestellt.
+                                        </Text>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border border-base-200 rounded-xl p-5">
+                                <div class="flex items-start gap-4">
+                                    <span
+                                        class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-accent-700 text-white font-bold text-sm shrink-0"
+                                        aria-hidden="true">41</span
+                                    >
+                                    <div>
+                                        <Text
+                                            tag="h3"
+                                            variant="textLG"
+                                            class="font-semibold text-base-900"
+                                            >Klasse 41 – Unterhaltung & Bildung</Text
+                                        >
+                                        <Text
+                                            tag="p"
+                                            variant="textBase"
+                                            class="mt-1 text-base-600"
+                                        >
+                                            Die App stellt Information über die
+                                            Geschichte von Städten und deren
+                                            Wahrzeichen zur verfügung.
+                                        </Text>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border border-base-200 rounded-xl p-5">
+                                <div class="flex items-start gap-4">
+                                    <span
+                                        class="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-accent-700 text-white font-bold text-sm shrink-0"
+                                        aria-hidden="true">42</span
+                                    >
+                                    <div>
+                                        <Text
+                                            tag="h3"
+                                            variant="textLG"
+                                            class="font-semibold text-base-900"
+                                            >Klasse 42 – SaaS Dienste, Cloud
+                                            Services</Text
+                                        >
+                                        <Text
+                                            tag="p"
+                                            variant="textBase"
+                                            class="mt-1 text-base-600"
+                                        >
+                                            Der Inhalt wird online über die
+                                            Server der CityTrail GmbH zur
+                                            verfügung gestellt.
+                                        </Text>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Wrapper>
