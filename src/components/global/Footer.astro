@@ -36,8 +36,8 @@ const currentYear = new Date().getFullYear();
         <div
             class="grid sm:grid-cols-2 lg:grid-cols-5 items-start gap-x-8 gap-y-8 sm:gap-y-24"
         >
-            <div class="flex flex-col justify-between h-full">
-                <Link href="/">
+            <div class="flex flex-col justify-between h-full lg:col-span-2">
+                <Link href="/" noUnderline>
                     <Logo class="textBase font-medium" />
                 </Link>
                 <Address />
@@ -49,7 +49,7 @@ const currentYear = new Date().getFullYear();
                     sections.map(({ title, links }) => (
                         <div>
                             <Text
-                                tag="h3"
+                                tag="span"
                                 variant="textSM"
                                 class=" text-base-900 font-medium uppercase"
                             >

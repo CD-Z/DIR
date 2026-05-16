@@ -1,4 +1,6 @@
 ---
+import Link from "../fundations/elements/Link.astro";
+
 const { class: className = "", ...rest } = Astro.props;
 ---
 
@@ -7,9 +9,11 @@ const { class: className = "", ...rest } = Astro.props;
     <span>Resselgasse 4</span><br />
     <span>1040 Wien</span><br />
     <span>Österreich</span><br />
-    <span>Telefon: <a href="tel:+431234567">+43 123 4567890</a></span><br />
+    <span>Telefon: <Link eref="tel:+431234567">+43 123 4567890</Link></span><br
+    />
     <span
-        >E-Mail: <a href="mailto:contact@city-trail.at">contact@city-trail.at</a
+        >E-Mail: <Link eref="mailto:contact@city-trail.at"
+            >contact@city-trail.at</Link
         ></span
     ><br />
 </p>
