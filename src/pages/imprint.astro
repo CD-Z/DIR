@@ -1,0 +1,60 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Text from "@/components/fundations/elements/Text.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import Link from "@/components/fundations/elements/Link.astro";
+import Address from "@/components/assets/Address.astro";
+---
+
+<BaseLayout>
+    <section>
+        <Wrapper variant="standard" class="py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-12">
+                <div>
+                    <div class="lg:sticky lg:top-20">
+                        <Text
+                            tag="h1"
+                            variant="displayMD"
+                            class="tracking-tight font-semibold text-base-900"
+                        >
+                            Impressum
+                        </Text>
+                        <Text
+                            tag="p"
+                            variant="textBase"
+                            class="mt-4 text-base-500 font-medium"
+                        >
+                            Stand: Mai 2026
+                        </Text>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2 space-y-10">
+                    <!-- Erklärung -->
+                    <Wrapper variant="prose" class="max-w-none">
+                        <Address />
+                        <p class="grid grid-cols-[max-content_auto] gap-x-4">
+                            <b>UID-Nummer:</b><span>ATU12345678</span>
+                            <b>Firmenbuchnummer:</b><span>FB 123456 a</span>
+                            <b>Firmenbuchgericht:</b><span
+                                >Handelsgericht Wien</span
+                            >
+                            <b>Firmensitz:</b><span>1040 Wien</span>
+                        </p>
+                        <b>Vertretungsbefugte Personen</b>
+                        <ul>
+                            <li>Patrick Loser</li>
+                        </ul>
+                        <p class="grid grid-cols-[max-content_auto] gap-x-4">
+                            <b>Aufsichtsbehörde:</b>
+                            <span>
+                                Magistratisches Bezirksamt für den 1. und 8.
+                                Bezirk
+                            </span>
+                        </p>
+                    </Wrapper>
+                </div>
+            </div>
+        </Wrapper>
+    </section>
+</BaseLayout>
