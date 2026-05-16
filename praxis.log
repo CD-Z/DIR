@@ -1,0 +1,1663 @@
+PNG        󰄛  コンピューター
+        ┌──────────────────────────────────────────┐
+          󰇺 Chassis :
+          󰣇 OS : CachyOS Linux
+           Kernel : 6.18.28-2-cachyos-lts
+          󰏗 Packages : 43 (flatpak), 2172 (pacman)
+          󰍹 Display : 1920x1080 @ 60Hz [External]
+          󰍹 Display : 3440x1440 @ 180Hz [External]
+          >_ Terminal : zed-editor
+          󱗃 WM : Hyprland
+        └──────────────────────────────────────────┘
+
+           : cdz @ cachyos
+        ┌──────────────────────────────────────────┐
+           CPU : AMD Ryzen 7 7800X3D @ 5.05 GHz
+          󰊴 GPU : AMD AMD Radeon RX 7800 XT
+           GPU Driver : amdgpu
+            Memory : 13.40 GiB / 31.00 GiB (43%)
+          󱦟 OS Age  : 801 days
+          󱫐 Uptime  : 2 days, 22 hours, 3 mins
+        └──────────────────────────────────────────┘
+          ● ● ● ● ● ● ● ●
+
+
+praxis-bsp on  main [!?⇡] via  v24.14.0
+❯ npm run dev
+
+> dir-website@0.0.1 dev
+> astro dev
+
+[vite] connected.
+10:52:49 [types] Generated 0ms
+10:52:49 [WARN] [content] Content config not loaded
+10:52:49 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.0.5 ready in 506 ms
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+10:52:49 watching for file changes...
+
+ update  ▶ New version of Astro available: 6.3.2
+  Run npx @astrojs/upgrade to update
+
+10:52:56 [200] / 23ms
+10:52:56 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+10:52:56 [vite] ✨ optimized dependencies changed. reloading
+10:52:56 [200] /_image 264ms
+10:52:56 [404] /apple-touch-icon.png 2ms
+10:52:56 [404] /icon.svg 1ms
+10:53:18 [200] /terms 19ms
+10:53:22 [200] /login 14ms
+10:53:24 [200] /signup 17ms
+10:53:49 [200] /about 18ms
+10:55:03 [200] /about 13ms
+10:55:06 [200] / 5ms
+10:55:43 [200] /accessibility 15ms
+10:56:36 [200] /accessibility 12ms
+10:56:50 [200] /credits 13ms
+10:58:27 [200] / 5ms
+11:00:26 [200] /credits 14ms
+11:01:29 [200] /credits 14ms
+11:01:37 [200] /license 13ms
+11:01:50 [200] /license 13ms
+11:01:55 [200] / 13ms
+11:02:01 [200] /about 11ms
+11:02:03 [200] /accessibility 11ms
+11:02:03 [200] /credits 1ms
+11:02:04 [200] /license 1ms
+11:02:06 [200] /terms 11ms
+11:03:21 [200] /terms 1ms
+11:03:24 [200] / 3ms
+11:04:01 [200] /about 1ms
+11:04:02 [200] /accessibility 2ms
+11:04:03 [200] /license 2ms
+11:04:03 [200] /credits 2ms
+11:04:05 [200] / 4ms
+11:04:07 [200] /terms 1ms
+11:08:53 [200] / 18ms
+11:08:54 [200] / 3ms
+11:08:54 [watch] src/components/global/Navigation.astro
+11:08:55 [200] / 14ms
+11:08:56 [200] / 3ms
+11:08:56 [200] / 15ms
+11:08:57 [200] / 3ms
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/chunks/config.js:22663:33)
+[vite] program reload
+11:09:11 [200] / 52ms
+11:09:12 [200] / 11ms
+11:09:21 [200] /ai-disclaimer 12ms
+11:11:21 [200] /ai-disclaimer 17ms
+11:11:22 [200] / 16ms
+11:11:58 [200] /ai-disclaimer 16ms
+11:11:59 [200] / 17ms
+11:12:45 [200] /license 14ms
+11:12:47 [200] /accessibility 16ms
+11:12:48 [200] /ai-disclaimer 2ms
+11:13:00 [200] /ai-disclaimer 1ms
+11:13:29 [200] /ai-disclaimer 16ms
+11:13:29 [200] / 18ms
+11:13:56 [200] /ai-disclaimer 16ms
+11:13:56 [200] / 3ms
+11:14:58 [200] /ai-disclaimer 16ms
+11:14:58 [200] / 2ms
+11:16:30 [200] /ai-disclaimer 17ms
+11:16:31 [200] / 3ms
+11:16:37 [200] /terms 15ms
+11:16:39 [200] /license 16ms
+11:16:41 [200] /credits 16ms
+11:16:43 [200] /accessibility 16ms
+11:19:13 [200] /ai-disclaimer 16ms
+11:19:13 [200] / 3ms
+11:26:29 [200] /ai-disclaimer 16ms
+11:26:30 [200] / 3ms
+11:30:04 [200] /ai-disclaimer 16ms
+11:30:04 [200] / 4ms
+11:30:13 [200] / 2ms
+11:31:35 [200] /ai-disclaimer 15ms
+11:31:36 [200] / 2ms
+11:31:42 [200] / 3ms
+11:32:16 [200] /ai-disclaimer 16ms
+11:32:17 [200] / 3ms
+11:34:56 [200] /ai-disclaimer 15ms
+11:34:57 [200] / 2ms
+11:46:46 [200] /ai-disclaimer 16ms
+11:46:46 [200] / 4ms
+11:52:41 [200] / 7ms
+11:55:57 [200] /credits 2ms
+11:56:37 [200] /credits 31ms
+11:56:38 [200] / 3ms
+11:57:08 [200] / 3ms
+11:57:21 [200] /about 25ms
+11:57:27 [200] /about 1ms
+11:58:20 [200] /credits 1ms
+12:18:05 [200] /credits 5ms
+12:20:58 [200] /credits 21ms
+12:20:59 [200] / 23ms
+12:28:45 [watch] src/components/global/Navigation.astro
+12:28:45 [200] /credits 18ms
+12:28:45 [200] / 29ms
+12:29:36 [watch] src/components/global/Navigation.astro
+12:29:36 [200] /credits 17ms
+12:29:36 [200] / 18ms
+12:33:57 [watch] src/components/global/Navigation.astro
+12:33:57 [200] /credits 17ms
+12:33:57 [200] / 18ms
+13:32:42 [200] / 3ms
+13:58:12 [200] /accessibility 24ms
+14:06:43 [200] / 3ms
+14:14:13 [200] / 3ms
+14:14:13 [200] / 3ms
+14:14:23 [200] /accessibility 16ms
+14:15:57 [200] /accessibility 15ms
+14:15:58 [200] / 3ms
+14:23:58 [200] / 4ms
+14:23:58 [200] /accessibility 25ms
+14:25:10 [200] / 5ms
+14:25:10 [200] /accessibility 26ms
+14:29:50 [200] /accessibility 21ms
+14:29:50 [200] / 5ms
+14:32:03 [200] / 5ms
+14:32:04 [200] /accessibility 16ms
+14:32:46 [200] /accessibility 18ms
+14:32:46 [200] / 3ms
+14:37:56 [200] /accessibility 15ms
+14:37:57 [200] / 3ms
+14:38:11 [200] /accessibility 17ms
+14:38:12 [200] / 2ms
+14:40:45 [200] /accessibility 15ms
+14:40:46 [200] / 3ms
+14:53:39 [200] /accessibility 22ms
+14:53:40 [200] / 6ms
+15:35:41 [200] / 4ms
+15:35:41 [404] /manifest.webmanifest 7ms
+15:35:42 [200] /_image 310ms
+15:35:42 [404] /manifest.webmanifest 0ms
+15:35:42 [404] /icon.svg 0ms
+15:35:42 [404] /favicon-32x32.png 0ms
+15:35:42 [404] /favicon-16x16.png 0ms
+15:35:42 [404] /favicon-48x48.png 0ms
+15:35:51 [404] /manifest.webmanifest 1ms
+15:35:52 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:36:00 [200] / 4ms
+15:36:00 [404] /manifest.webmanifest 2ms
+15:36:00 [200] /_image 241ms
+15:36:00 [404] /manifest.webmanifest 0ms
+15:36:03 [404] /manifest.webmanifest 0ms
+15:36:03 [404] /robots.txt 0ms
+15:36:03 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:36:04 [200] /_image 234ms
+15:36:05 [200] / 3ms
+15:36:05 [404] /manifest.webmanifest 1ms
+15:36:05 [200] /_image 233ms
+15:36:05 [404] /manifest.webmanifest 1ms
+15:36:06 [404] /manifest.webmanifest 0ms
+15:36:06 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:36:06 [200] / 2ms
+15:36:06 [404] /manifest.webmanifest 0ms
+15:36:06 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:36:06 [200] /_image 233ms
+15:36:06 [404] /manifest.webmanifest 0ms
+15:38:39 [404] /manifest.webmanifest 1ms
+15:38:40 [200] / 3ms
+15:38:40 [404] /manifest.webmanifest 0ms
+15:38:41 [200] /_image 240ms
+15:38:41 [404] /manifest.webmanifest 1ms
+15:38:43 [404] /manifest.webmanifest 0ms
+15:38:43 [404] /robots.txt 0ms
+15:38:44 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:38:45 [200] / 3ms
+15:38:45 [404] /manifest.webmanifest 0ms
+15:38:46 [200] /_image 276ms
+15:38:46 [404] /manifest.webmanifest 0ms
+15:38:46 [404] /manifest.webmanifest 0ms
+15:38:46 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:38:46 [200] / 3ms
+15:38:46 [404] /manifest.webmanifest 0ms
+15:38:46 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:38:46 [200] /_image 231ms
+15:38:46 [404] /manifest.webmanifest 1ms
+15:39:45 [200] / 5ms
+15:42:35 [200] / 24ms
+15:42:35 [200] / 15ms
+15:42:35 [200] / 3ms
+15:42:35 [404] /manifest.webmanifest 0ms
+15:42:35 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:42:35 [200] /_image 234ms
+15:42:35 [404] /manifest.webmanifest 0ms
+15:42:53 [200] / 17ms
+15:42:54 [200] / 3ms
+15:42:54 [200] / 3ms
+15:42:54 [404] /manifest.webmanifest 0ms
+15:42:54 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:42:54 [200] /_image 249ms
+15:42:54 [404] /manifest.webmanifest 0ms
+15:43:03 [200] / 18ms
+15:43:03 [200] / 3ms
+15:43:03 [404] /manifest.webmanifest 0ms
+15:43:03 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:43:03 [200] / 2ms
+15:43:03 [200] /_image 234ms
+15:43:03 [404] /manifest.webmanifest 0ms
+15:44:12 [200] / 21ms
+15:44:12 [200] / 21ms
+15:44:12 [404] /manifest.webmanifest 0ms
+15:44:12 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:44:12 [200] /_image 247ms
+15:44:12 [404] /manifest.webmanifest 0ms
+15:44:13 [200] / 3ms
+15:44:28 [200] / 20ms
+15:44:28 [200] / 3ms
+15:44:28 [404] /manifest.webmanifest 0ms
+15:44:28 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:44:28 [200] /_image 333ms
+15:44:28 [404] /manifest.webmanifest 0ms
+15:44:28 [200] / 3ms
+15:45:47 [200] / 19ms
+15:45:47 [200] / 3ms
+15:45:47 [404] /manifest.webmanifest 0ms
+15:45:47 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:45:47 [200] /_image 245ms
+15:45:47 [404] /manifest.webmanifest 0ms
+15:45:48 [200] / 3ms
+15:46:01 [200] / 17ms
+15:46:02 [200] / 3ms
+15:46:02 [404] /manifest.webmanifest 0ms
+15:46:02 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:46:02 [200] / 2ms
+15:46:02 [200] /_image 243ms
+15:46:02 [404] /manifest.webmanifest 0ms
+15:46:10 [404] /manifest.webmanifest 0ms
+15:46:12 [200] / 3ms
+15:46:12 [404] /manifest.webmanifest 0ms
+15:46:12 [200] /_image 232ms
+15:46:12 [404] /manifest.webmanifest 0ms
+15:46:15 [404] /manifest.webmanifest 0ms
+15:46:15 [404] /robots.txt 0ms
+15:46:15 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:46:15 [200] /_image 233ms
+15:46:17 [200] / 3ms
+15:46:17 [404] /manifest.webmanifest 0ms
+15:46:17 [200] /_image 242ms
+15:46:17 [404] /manifest.webmanifest 0ms
+15:46:17 [404] /manifest.webmanifest 1ms
+15:46:18 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:46:18 [200] / 2ms
+15:46:18 [404] /manifest.webmanifest 0ms
+15:46:18 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:46:18 [200] /_image 236ms
+15:46:18 [404] /manifest.webmanifest 0ms
+15:47:16 [200] / 25ms
+15:47:16 [200] / 26ms
+15:47:16 [404] /manifest.webmanifest 1ms
+15:47:16 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:47:16 [200] /_image 333ms
+15:47:16 [404] /manifest.webmanifest 0ms
+15:47:17 [200] / 4ms
+15:47:25 [200] / 31ms
+15:47:25 [200] / 31ms
+15:47:25 [404] /manifest.webmanifest 1ms
+15:47:25 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:47:25 [200] / 4ms
+15:47:25 [200] /_image 252ms
+15:47:25 [404] /manifest.webmanifest 0ms
+15:47:42 [200] / 18ms
+15:47:42 [200] / 16ms
+15:47:42 [404] /manifest.webmanifest 1ms
+15:47:42 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:47:42 [200] /_image 296ms
+15:47:42 [404] /manifest.webmanifest 0ms
+15:47:43 [200] / 3ms
+15:48:03 [200] / 18ms
+15:48:03 [200] / 18ms
+15:48:03 [200] / 4ms
+15:48:03 [404] /manifest.webmanifest 0ms
+15:48:03 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:48:03 [200] /_image 291ms
+15:48:03 [404] /manifest.webmanifest 0ms
+15:48:14 [200] / 18ms
+15:48:14 [200] / 18ms
+15:48:14 [404] /manifest.webmanifest 0ms
+15:48:14 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:48:14 [200] / 3ms
+15:48:15 [200] /_image 282ms
+15:48:15 [404] /manifest.webmanifest 0ms
+15:49:28 [200] / 24ms
+15:49:28 [200] / 24ms
+15:49:28 [404] /manifest.webmanifest 0ms
+15:49:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:49:29 [200] /_image 297ms
+15:49:29 [404] /manifest.webmanifest 0ms
+15:49:29 [200] / 4ms
+15:49:35 [200] / 17ms
+15:49:35 [200] / 17ms
+15:49:35 [404] /manifest.webmanifest 0ms
+15:49:35 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:49:35 [200] /_image 372ms
+15:49:35 [404] /manifest.webmanifest 0ms
+15:49:35 [200] / 2ms
+15:49:38 [200] / 2ms
+15:50:15 [200] / 21ms
+15:50:15 [200] / 22ms
+15:50:15 [404] /manifest.webmanifest 1ms
+15:50:16 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:50:16 [200] /_image 314ms
+15:50:16 [404] /manifest.webmanifest 0ms
+15:50:17 [200] / 3ms
+15:50:30 [200] / 19ms
+15:50:30 [200] / 2ms
+15:50:30 [404] /manifest.webmanifest 0ms
+15:50:30 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:50:31 [200] /_image 320ms
+15:50:31 [404] /manifest.webmanifest 0ms
+15:50:32 [200] / 3ms
+15:51:44 [200] / 25ms
+15:51:44 [200] / 25ms
+15:51:44 [404] /manifest.webmanifest 0ms
+15:51:44 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:51:44 [200] /_image 316ms
+15:51:44 [404] /manifest.webmanifest 0ms
+15:51:45 [200] / 3ms
+15:52:09 [200] / 20ms
+15:52:09 [200] / 20ms
+15:52:10 [404] /manifest.webmanifest 0ms
+15:52:10 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:52:10 [200] /_image 264ms
+15:52:10 [404] /manifest.webmanifest 0ms
+15:52:10 [200] / 3ms
+15:52:25 [200] / 22ms
+15:52:25 [200] / 22ms
+15:52:25 [404] /manifest.webmanifest 0ms
+15:52:25 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:52:25 [200] / 3ms
+15:52:25 [200] /_image 284ms
+15:52:25 [404] /manifest.webmanifest 0ms
+15:52:43 [200] / 21ms
+15:52:43 [200] / 16ms
+15:52:43 [404] /manifest.webmanifest 0ms
+15:52:43 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:52:43 [200] /_image 284ms
+15:52:43 [404] /manifest.webmanifest 0ms
+15:52:44 [200] / 3ms
+15:53:16 [200] / 22ms
+15:53:16 [200] / 22ms
+15:53:16 [404] /manifest.webmanifest 0ms
+15:53:16 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:53:16 [200] / 3ms
+15:53:16 [200] /_image 251ms
+15:53:16 [404] /manifest.webmanifest 0ms
+15:53:58 [200] / 27ms
+15:53:58 [200] / 27ms
+15:53:58 [404] /manifest.webmanifest 0ms
+15:53:58 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:53:59 [200] /_image 251ms
+15:53:59 [404] /manifest.webmanifest 0ms
+15:53:59 [200] / 2ms
+15:54:19 [200] / 20ms
+15:54:19 [200] / 18ms
+15:54:19 [404] /manifest.webmanifest 0ms
+15:54:19 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:54:19 [200] /_image 303ms
+15:54:19 [404] /manifest.webmanifest 0ms
+15:54:20 [200] / 3ms
+15:54:29 [200] / 32ms
+15:54:29 [200] / 32ms
+15:54:29 [404] /manifest.webmanifest 1ms
+15:54:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:54:30 [200] /_image 385ms
+15:54:30 [404] /manifest.webmanifest 0ms
+15:54:30 [200] / 4ms
+15:54:55 [200] / 22ms
+15:54:55 [200] / 22ms
+15:54:55 [404] /manifest.webmanifest 1ms
+15:54:55 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:54:55 [200] /_image 280ms
+15:54:55 [404] /manifest.webmanifest 0ms
+15:54:56 [200] / 3ms
+15:55:21 [200] / 30ms
+15:55:21 [200] / 30ms
+15:55:21 [404] /manifest.webmanifest 0ms
+15:55:21 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:55:21 [200] / 11ms
+15:55:22 [200] /_image 327ms
+15:55:22 [404] /manifest.webmanifest 0ms
+15:55:55 [200] / 24ms
+15:55:55 [200] / 24ms
+15:55:55 [404] /manifest.webmanifest 0ms
+15:55:55 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:55:55 [200] /_image 270ms
+15:55:55 [404] /manifest.webmanifest 0ms
+15:55:55 [200] / 2ms
+15:57:34 [200] / 19ms
+15:57:34 [200] / 19ms
+15:57:34 [404] /manifest.webmanifest 0ms
+15:57:34 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:57:34 [200] /_image 269ms
+15:57:34 [404] /manifest.webmanifest 0ms
+15:57:35 [200] / 3ms
+15:57:54 [200] / 19ms
+15:57:54 [200] / 19ms
+15:57:55 [404] /manifest.webmanifest 0ms
+15:57:55 [200] / 3ms
+15:57:55 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:57:55 [200] /_image 350ms
+15:57:55 [404] /manifest.webmanifest 0ms
+15:58:01 [200] / 19ms
+15:58:01 [200] / 18ms
+15:58:01 [404] /manifest.webmanifest 0ms
+15:58:01 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:58:01 [200] / 3ms
+15:58:01 [200] /_image 282ms
+15:58:01 [404] /manifest.webmanifest 0ms
+15:58:22 [200] / 20ms
+15:58:22 [200] / 12ms
+15:58:22 [404] /manifest.webmanifest 0ms
+15:58:22 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:58:22 [200] /_image 269ms
+15:58:22 [404] /manifest.webmanifest 0ms
+15:58:23 [200] / 3ms
+15:58:34 [200] / 17ms
+15:58:34 [200] / 15ms
+15:58:34 [404] /manifest.webmanifest 0ms
+15:58:34 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:58:35 [200] / 4ms
+15:58:35 [200] /_image 252ms
+15:58:35 [404] /manifest.webmanifest 0ms
+15:58:50 [200] / 28ms
+15:58:50 [200] / 28ms
+15:58:51 [404] /manifest.webmanifest 0ms
+15:58:51 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:58:51 [200] /_image 372ms
+15:58:51 [404] /manifest.webmanifest 0ms
+15:58:51 [200] / 3ms
+15:59:11 [200] / 44ms
+15:59:11 [200] / 44ms
+15:59:11 [404] /manifest.webmanifest 0ms
+15:59:11 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:59:11 [200] /_image 255ms
+15:59:11 [404] /manifest.webmanifest 0ms
+15:59:12 [200] / 3ms
+15:59:16 [200] / 18ms
+15:59:16 [200] / 18ms
+15:59:16 [404] /manifest.webmanifest 0ms
+15:59:16 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:59:16 [200] /_image 259ms
+15:59:16 [404] /manifest.webmanifest 0ms
+15:59:16 [200] / 2ms
+15:59:27 [200] / 31ms
+15:59:27 [200] / 32ms
+15:59:27 [404] /manifest.webmanifest 0ms
+15:59:27 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:59:27 [200] /_image 364ms
+15:59:27 [404] /manifest.webmanifest 0ms
+15:59:28 [200] / 3ms
+15:59:33 [200] / 16ms
+15:59:33 [200] / 2ms
+15:59:33 [200] / 4ms
+15:59:33 [404] /manifest.webmanifest 0ms
+15:59:33 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:59:33 [200] /_image 264ms
+15:59:33 [404] /manifest.webmanifest 0ms
+15:59:47 [404] /manifest.webmanifest 0ms
+15:59:48 [200] / 3ms
+15:59:48 [404] /manifest.webmanifest 0ms
+15:59:49 [200] /_image 343ms
+15:59:49 [404] /manifest.webmanifest 0ms
+15:59:51 [404] /manifest.webmanifest 0ms
+15:59:52 [404] /robots.txt 0ms
+15:59:52 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:59:52 [200] /_image 238ms
+15:59:53 [200] / 3ms
+15:59:53 [404] /manifest.webmanifest 1ms
+15:59:54 [200] /_image 253ms
+15:59:54 [404] /manifest.webmanifest 1ms
+15:59:54 [404] /manifest.webmanifest 0ms
+15:59:54 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:59:54 [200] / 2ms
+15:59:54 [404] /manifest.webmanifest 0ms
+15:59:54 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:59:54 [200] /_image 234ms
+15:59:54 [404] /manifest.webmanifest 0ms
+16:02:20 [200] /license 17ms
+16:02:23 [200] /credits 2ms
+16:04:21 [200] / 4ms
+16:04:21 [200] /credits 28ms
+16:04:21 [200] / 2ms
+16:04:21 [404] /manifest.webmanifest 1ms
+16:04:21 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+16:04:21 [200] /_image 354ms
+16:04:21 [404] /manifest.webmanifest 0ms
+16:10:49 [200] / 7ms
+16:10:49 [404] /manifest.webmanifest 1ms
+16:10:49 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+16:10:49 [200] /_image 283ms
+16:10:49 [404] /manifest.webmanifest 0ms
+16:10:50 [200] / 2ms
+16:10:59 [200] / 4ms
+16:10:59 [200] /credits 21ms
+16:10:59 [404] /manifest.webmanifest 0ms
+16:10:59 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+16:11:00 [200] /_image 274ms
+16:11:00 [404] /manifest.webmanifest 0ms
+16:11:00 [200] / 5ms
+16:11:30 [200] / 4ms
+16:11:30 [200] /credits 17ms
+16:11:30 [404] /manifest.webmanifest 0ms
+16:11:30 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+16:11:31 [200] /_image 266ms
+16:11:31 [404] /manifest.webmanifest 0ms
+16:11:31 [200] / 4ms
+16:12:39 [200] / 4ms
+16:12:39 [200] /credits 18ms
+16:12:39 [404] /manifest.webmanifest 1ms
+16:12:39 [200] / 4ms
+16:12:39 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+16:12:39 [200] /_image 336ms
+16:12:39 [404] /manifest.webmanifest 0ms
+17:18:51 [200] / 16ms
+17:32:27 [200] /credits 2ms
+17:37:07 [200] / 5ms
+17:37:07 [200] /credits 55ms
+17:37:07 [404] /manifest.webmanifest 1ms
+17:37:07 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:37:07 [200] /_image 409ms
+17:37:07 [404] /manifest.webmanifest 0ms
+17:37:08 [200] / 3ms
+17:43:16 [200] / 4ms
+17:43:16 [200] /credits 21ms
+17:43:16 [404] /manifest.webmanifest 0ms
+17:43:16 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:43:17 [200] /_image 414ms
+17:43:17 [404] /manifest.webmanifest 0ms
+17:43:17 [200] / 2ms
+17:43:50 [200] / 7ms
+17:43:50 [200] /credits 20ms
+17:43:50 [404] /manifest.webmanifest 0ms
+17:43:50 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:43:50 [200] / 5ms
+17:43:50 [200] /_image 423ms
+17:43:50 [404] /manifest.webmanifest 0ms
+17:45:11 [200] / 4ms
+17:45:11 [404] /manifest.webmanifest 0ms
+17:45:11 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:45:12 [200] /_image 364ms
+17:45:12 [404] /manifest.webmanifest 0ms
+17:45:12 [200] / 3ms
+17:45:12 [200] /credits 18ms
+17:45:25 [200] / 4ms
+17:45:25 [404] /manifest.webmanifest 0ms
+17:45:25 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:45:25 [200] / 3ms
+17:45:25 [200] /_image 377ms
+17:45:25 [404] /manifest.webmanifest 0ms
+17:45:26 [200] /credits 16ms
+17:45:57 [200] / 11ms
+17:45:57 [200] /credits 38ms
+17:45:57 [404] /manifest.webmanifest 0ms
+17:45:57 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:45:57 [200] /_image 389ms
+17:45:57 [404] /manifest.webmanifest 0ms
+17:45:57 [200] / 4ms
+17:47:20 [200] / 15ms
+17:47:20 [200] /credits 47ms
+17:47:20 [200] / 4ms
+17:47:20 [404] /manifest.webmanifest 0ms
+17:47:20 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:47:20 [200] /_image 301ms
+17:47:20 [404] /manifest.webmanifest 0ms
+17:50:45 [200] / 6ms
+17:50:45 [200] /credits 36ms
+17:50:45 [404] /manifest.webmanifest 0ms
+17:50:45 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:50:45 [200] /_image 342ms
+17:50:45 [404] /manifest.webmanifest 0ms
+17:50:46 [200] / 2ms
+17:51:34 [200] / 3ms
+17:51:34 [404] /manifest.webmanifest 0ms
+17:51:35 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:51:35 [200] /credits 27ms
+17:51:35 [200] /_image 449ms
+17:51:35 [404] /manifest.webmanifest 0ms
+17:51:35 [200] / 2ms
+[vite] program reload
+17:55:20 Configuration file updated. Restarting...
+17:55:20 [watch] /src/styles/global.css
+17:55:20 [watch] /src/styles/global.css
+17:55:20 [watch] src/components/global/Navigation.astro
+17:55:21 [ERROR] transport was disconnected, cannot call "fetchModule"
+  Stack trace:
+    at /home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:475:14
+    [...] See full stack trace in the browser, or rerun with --verbose.
+17:55:21 [ERROR] transport was disconnected, cannot call "fetchModule"
+  Stack trace:
+    at reviveInvokeError (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:475:14)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+17:55:21 [ERROR] transport was disconnected, cannot call "fetchModule"
+  Stack trace:
+    at reviveInvokeError (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:475:14)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+17:55:21 [ERROR] transport was disconnected, cannot call "fetchModule"
+  Stack trace:
+    at reviveInvokeError (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:475:14)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+[vite] An error happened during full reload
+transport was disconnected, cannot call "fetchModule"
+Error: transport was disconnected, cannot call "fetchModule"
+    at reviveInvokeError (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:475:14)
+    at Object.invoke (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:549:11)
+    at async ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1086:7)
+    at async request (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1103:83)
+    at async eval (/home/cdz/Documents/uni/recht/praxis-bsp/src/components/fundations/head/BaseHead.astro:7:31)
+    at async ESModulesEvaluator.runInlinedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:913:3)
+    at async ModuleRunner.directRequest (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1146:59)
+    at async ModuleRunner.cachedRequest (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1053:73)
+    at async eval (/home/cdz/Documents/uni/recht/praxis-bsp/src/layouts/BaseLayout.astro:8:31)
+    at async ESModulesEvaluator.runInlinedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:913:3)
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] An error happened during full reload
+Vite module runner has been closed.
+Error: Vite module runner has been closed.
+    at ModuleRunner.getModuleInformation (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1081:26)
+    at ModuleRunner.cachedModule (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1063:18)
+    at ModuleRunner.import (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:1013:34)
+    at file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/module-runner.js:682:25
+[vite] connected.
+17:55:22 [vite] Re-optimizing dependencies because vite config has changed
+17:55:22 [types] Generated 68ms
+17:55:22 [vite] Re-optimizing dependencies because vite config has changed
+17:55:22 [200] / 31ms
+17:55:22 [404] /manifest.webmanifest 7ms
+17:55:22 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+17:55:22 [vite] ✨ optimized dependencies changed. reloading
+17:55:22 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:55:22 [200] / 7ms
+17:55:23 [404] /manifest.webmanifest 1ms
+17:55:23 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:55:23 [200] /_image 286ms
+17:55:23 [200] /_image 421ms
+17:55:23 [404] /manifest.webmanifest 0ms
+17:55:31 [200] /credits 17ms
+18:42:40 [200] / 10ms
+09:54:18 [200] / 52ms
+09:54:19 [404] /manifest.webmanifest 1ms
+09:54:19 [200] /_image 433ms
+09:54:19 [404] /manifest.webmanifest 0ms
+09:54:19 [404] /icon.svg 0ms
+09:54:19 [404] /favicon-32x32.png 0ms
+09:54:19 [404] /favicon-16x16.png 0ms
+09:54:19 [404] /favicon-48x48.png 0ms
+09:57:36 [404] /manifest.webmanifest 0ms
+09:57:36 [404] /icon.svg 0ms
+09:57:36 [404] /favicon-32x32.png 0ms
+09:57:36 [404] /favicon-16x16.png 0ms
+09:57:36 [404] /favicon-48x48.png 0ms
+10:15:47 [404] /manifest.webmanifest 0ms
+10:15:47 [404] /icon.svg 0ms
+10:15:47 [404] /favicon-32x32.png 0ms
+10:15:47 [404] /favicon-16x16.png 0ms
+10:15:47 [404] /favicon-48x48.png 0ms
+10:16:52 [404] /manifest.webmanifest 0ms
+10:16:52 [404] /icon.svg 0ms
+10:16:52 [404] /favicon-32x32.png 0ms
+10:16:52 [404] /favicon-16x16.png 0ms
+10:16:52 [404] /favicon-48x48.png 0ms
+10:26:44 [200] / 27ms
+10:26:44 [404] /manifest.webmanifest 0ms
+10:26:44 [404] /manifest.webmanifest 0ms
+10:27:11 [200] / 19ms
+10:27:11 [404] /manifest.webmanifest 0ms
+10:27:11 [404] /manifest.webmanifest 0ms
+10:27:20 [404] /manifest.webmanifest 0ms
+10:27:20 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+10:27:40 [200] / 23ms
+10:27:40 [404] /manifest.webmanifest 0ms
+10:27:40 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+10:27:40 [404] /manifest.webmanifest 0ms
+10:28:08 [200] / 18ms
+10:28:08 [404] /manifest.webmanifest 0ms
+10:28:08 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+10:28:08 [404] /manifest.webmanifest 0ms
+10:37:16 [200] / 20ms
+10:37:16 [404] /manifest.webmanifest 0ms
+10:37:16 [404] /manifest.webmanifest 0ms
+10:37:29 [200] / 18ms
+10:37:29 [404] /manifest.webmanifest 0ms
+10:37:29 [404] /manifest.webmanifest 0ms
+10:37:48 [200] / 19ms
+10:37:48 [404] /manifest.webmanifest 0ms
+10:37:48 [404] /manifest.webmanifest 0ms
+10:38:34 [200] / 17ms
+10:38:34 [404] /manifest.webmanifest 1ms
+10:38:34 [404] /manifest.webmanifest 0ms
+10:38:54 [200] / 17ms
+10:38:54 [404] /manifest.webmanifest 0ms
+10:38:54 [404] /manifest.webmanifest 0ms
+10:40:59 [200] / 18ms
+10:40:59 [404] /manifest.webmanifest 1ms
+10:40:59 [404] /manifest.webmanifest 0ms
+10:41:03 [200] / 18ms
+10:41:03 [404] /manifest.webmanifest 0ms
+10:41:03 [404] /manifest.webmanifest 0ms
+10:41:08 [200] / 17ms
+10:41:08 [404] /manifest.webmanifest 0ms
+10:41:08 [404] /manifest.webmanifest 0ms
+10:41:13 [200] / 19ms
+10:41:13 [404] /manifest.webmanifest 0ms
+10:41:13 [404] /manifest.webmanifest 0ms
+10:41:19 [200] / 16ms
+10:41:19 [404] /manifest.webmanifest 0ms
+10:41:19 [404] /manifest.webmanifest 0ms
+10:41:23 [200] / 16ms
+10:41:23 [404] /manifest.webmanifest 0ms
+10:41:23 [404] /manifest.webmanifest 0ms
+10:41:30 [200] / 16ms
+10:41:30 [404] /manifest.webmanifest 0ms
+10:41:30 [404] /manifest.webmanifest 0ms
+10:41:34 [200] / 19ms
+10:41:34 [404] /manifest.webmanifest 0ms
+10:41:34 [404] /manifest.webmanifest 0ms
+10:47:13 [200] / 15ms
+10:47:13 [404] /manifest.webmanifest 0ms
+10:47:13 [404] /manifest.webmanifest 0ms
+10:49:03 [200] / 18ms
+10:49:03 [404] /manifest.webmanifest 0ms
+10:49:03 [404] /src/images/favicon-dark.svg 1ms
+10:49:03 [404] /manifest.webmanifest 0ms
+10:50:16 [200] / 4ms
+10:50:16 [404] /manifest.webmanifest 1ms
+10:50:16 [404] /manifest.webmanifest 0ms
+10:50:17 [200] / 3ms
+10:50:17 [404] /manifest.webmanifest 0ms
+10:50:17 [404] /manifest.webmanifest 0ms
+10:50:18 [200] / 3ms
+10:50:18 [404] /manifest.webmanifest 0ms
+10:50:18 [404] /manifest.webmanifest 0ms
+10:50:18 [200] / 4ms
+10:50:18 [404] /manifest.webmanifest 0ms
+10:50:18 [404] /manifest.webmanifest 0ms
+10:50:18 [200] / 3ms
+10:50:18 [404] /manifest.webmanifest 0ms
+10:50:18 [404] /manifest.webmanifest 0ms
+10:50:26 [200] / 17ms
+10:50:26 [404] /manifest.webmanifest 0ms
+10:50:27 [404] /manifest.webmanifest 0ms
+10:50:31 [200] / 3ms
+10:50:31 [404] /manifest.webmanifest 0ms
+10:50:31 [404] /manifest.webmanifest 0ms
+10:50:31 [200] / 2ms
+10:50:31 [404] /manifest.webmanifest 0ms
+10:50:31 [404] /manifest.webmanifest 0ms
+10:50:31 [200] / 3ms
+10:50:31 [404] /manifest.webmanifest 0ms
+10:50:31 [404] /manifest.webmanifest 0ms
+10:50:32 [200] / 2ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [200] / 2ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [200] / 3ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [200] / 3ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:32 [404] /manifest.webmanifest 0ms
+10:50:33 [200] / 3ms
+10:50:33 [404] /manifest.webmanifest 0ms
+10:50:33 [404] /manifest.webmanifest 0ms
+10:50:33 [200] / 2ms
+10:50:33 [404] /manifest.webmanifest 0ms
+10:50:33 [404] /manifest.webmanifest 0ms
+10:50:36 [200] / 16ms
+10:50:36 [404] /manifest.webmanifest 0ms
+10:50:36 [404] /manifest.webmanifest 0ms
+10:50:43 [200] / 15ms
+10:50:43 [404] /manifest.webmanifest 1ms
+10:50:43 [404] /manifest.webmanifest 0ms
+10:50:48 [200] / 16ms
+10:50:48 [404] /manifest.webmanifest 0ms
+10:50:48 [404] /manifest.webmanifest 0ms
+10:52:30 [200] / 16ms
+10:52:30 [404] /manifest.webmanifest 0ms
+10:52:30 [404] /manifest.webmanifest 0ms
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/chunks/config.js:22663:33)
+10:52:45 [200] / 24ms
+10:52:45 [404] /manifest.webmanifest 0ms
+10:52:45 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:52:50 [200] / 15ms
+10:52:50 [404] /manifest.webmanifest 0ms
+10:52:50 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:55:35 [200] / 16ms
+10:55:35 [404] /manifest.webmanifest 0ms
+10:55:35 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:56:05 [200] / 14ms
+10:56:05 [404] /manifest.webmanifest 1ms
+10:56:05 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:56:21 [200] / 14ms
+10:56:21 [404] /manifest.webmanifest 0ms
+10:56:21 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:56:48 [200] / 13ms
+10:56:48 [404] /manifest.webmanifest 0ms
+10:56:48 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:57:02 [200] / 15ms
+10:57:02 [404] /manifest.webmanifest 1ms
+10:57:02 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:57:14 [200] / 14ms
+10:57:14 [404] /manifest.webmanifest 0ms
+10:57:14 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:58:01 [200] / 14ms
+10:58:01 [404] /manifest.webmanifest 1ms
+10:58:01 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:58:46 [200] / 15ms
+10:58:46 [404] /manifest.webmanifest 0ms
+10:58:46 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:59:20 [200] / 15ms
+10:59:20 [404] /manifest.webmanifest 0ms
+10:59:20 [404] /manifest.webmanifest 0ms
+[vite] program reload
+10:59:50 [200] / 13ms
+10:59:50 [404] /manifest.webmanifest 0ms
+10:59:50 [404] /manifest.webmanifest 0ms
+[vite] program reload
+11:00:33 [200] / 18ms
+11:00:33 [404] /manifest.webmanifest 1ms
+11:00:33 [404] /manifest.webmanifest 0ms
+11:00:56 [200] / 23ms
+11:00:56 [404] /manifest.webmanifest 0ms
+11:00:56 [404] /manifest.webmanifest 0ms
+[vite] program reload
+11:01:03 [200] / 16ms
+11:01:03 [404] /manifest.webmanifest 1ms
+11:01:03 [404] /manifest.webmanifest 0ms
+11:19:19 [200] / 31ms
+11:19:19 [404] /manifest.webmanifest 0ms
+11:19:19 [404] /manifest.webmanifest 0ms
+11:19:41 [200] / 21ms
+11:19:41 [404] /manifest.webmanifest 0ms
+11:19:41 [404] /manifest.webmanifest 0ms
+[vite] program reload
+11:19:46 [200] / 29ms
+[vite] program reload
+11:19:46 [200] / 25ms
+11:19:46 [404] /manifest.webmanifest 1ms
+11:19:46 [404] /manifest.webmanifest 1ms
+11:22:00 [watch] src/components/landing/Hero.astro
+11:22:00 [200] / 22ms
+11:22:00 [404] /manifest.webmanifest 1ms
+11:22:00 [404] /manifest.webmanifest 0ms
+11:22:13 [200] / 18ms
+11:22:13 [404] /manifest.webmanifest 0ms
+11:22:13 [404] /manifest.webmanifest 0ms
+[vite] program reload
+[vite] program reload
+11:22:18 [200] / 39ms
+11:22:18 [200] / 39ms
+11:22:18 [404] /manifest.webmanifest 0ms
+11:22:18 [404] /manifest.webmanifest 1ms
+11:23:36 [watch] src/components/landing/VideoShowcase.astro
+11:23:36 [200] / 19ms
+11:23:37 [404] /manifest.webmanifest 0ms
+11:23:37 [404] /manifest.webmanifest 0ms
+11:24:31 [watch] src/components/landing/VideoShowcase.astro
+11:24:31 [200] / 22ms
+11:24:31 [404] /manifest.webmanifest 0ms
+11:24:31 [404] /manifest.webmanifest 0ms
+11:25:00 [watch] src/components/landing/VideoShowcase.astro
+11:25:00 [200] / 19ms
+11:25:00 [404] /manifest.webmanifest 0ms
+11:25:00 [404] /manifest.webmanifest 0ms
+11:26:48 [200] /credits 18ms
+11:26:48 [404] /manifest.webmanifest 0ms
+11:26:49 [404] /manifest.webmanifest 0ms
+11:31:00 [200] /credits 18ms
+11:31:00 [404] /manifest.webmanifest 0ms
+11:31:00 [404] /manifest.webmanifest 0ms
+11:33:40 [200] /credits 16ms
+11:33:40 [404] /manifest.webmanifest 0ms
+11:33:40 [404] /manifest.webmanifest 0ms
+11:34:50 [200] /credits 20ms
+11:34:50 [404] /manifest.webmanifest 0ms
+11:34:50 [404] /manifest.webmanifest 0ms
+11:35:37 [200] /credits 24ms
+11:35:37 [404] /manifest.webmanifest 0ms
+11:35:37 [404] /manifest.webmanifest 0ms
+11:37:37 [200] /credits 18ms
+11:37:37 [404] /manifest.webmanifest 0ms
+11:37:37 [404] /manifest.webmanifest 0ms
+[vite] program reload
+11:37:50 [200] /credits 31ms
+11:37:51 [404] /manifest.webmanifest 2ms
+11:37:51 [404] /manifest.webmanifest 0ms
+11:44:31 [404] /manifest.webmanifest 2ms
+11:45:06 [200] /credits 17ms
+11:45:06 [404] /manifest.webmanifest 0ms
+11:45:06 [404] /manifest.webmanifest 0ms
+11:45:18 [200] /credits 17ms
+11:45:18 [404] /manifest.webmanifest 0ms
+11:45:18 [404] /manifest.webmanifest 0ms
+11:45:22 [200] /credits 16ms
+11:45:22 [404] /manifest.webmanifest 0ms
+11:45:22 [404] /manifest.webmanifest 0ms
+11:45:27 [200] /credits 14ms
+11:45:27 [404] /manifest.webmanifest 0ms
+11:45:27 [404] /manifest.webmanifest 0ms
+11:45:35 [200] /credits 15ms
+11:45:35 [404] /manifest.webmanifest 1ms
+11:45:35 [404] /manifest.webmanifest 0ms
+11:45:44 [200] /credits 15ms
+11:45:44 [404] /manifest.webmanifest 0ms
+11:45:44 [404] /manifest.webmanifest 0ms
+11:46:10 [200] /credits 16ms
+11:46:10 [404] /manifest.webmanifest 0ms
+11:46:10 [404] /manifest.webmanifest 1ms
+11:46:22 [404] /manifest.webmanifest 0ms
+11:46:22 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+11:46:42 [200] /credits 15ms
+11:46:42 [404] /manifest.webmanifest 0ms
+11:46:42 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+11:46:42 [404] /manifest.webmanifest 0ms
+11:51:26 [404] /manifest.webmanifest 1ms
+11:51:26 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+11:58:49 [404] /manifest.webmanifest 1ms
+11:58:54 [200] /ai-disclaimer 22ms
+11:58:54 [404] /manifest.webmanifest 0ms
+11:58:54 [404] /manifest.webmanifest 0ms
+11:59:07 [200] / 21ms
+11:59:07 [404] /manifest.webmanifest 0ms
+11:59:07 [404] /manifest.webmanifest 0ms
+11:59:11 [200] /about 15ms
+11:59:11 [404] /manifest.webmanifest 0ms
+11:59:11 [404] /manifest.webmanifest 0ms
+11:59:19 [200] /license 15ms
+11:59:19 [404] /manifest.webmanifest 0ms
+11:59:19 [404] /manifest.webmanifest 0ms
+11:59:22 [200] /credits 2ms
+11:59:22 [404] /manifest.webmanifest 0ms
+11:59:22 [404] /manifest.webmanifest 0ms
+11:59:23 [404] /manifest.webmanifest 0ms
+11:59:24 [200] /license 1ms
+11:59:24 [404] /manifest.webmanifest 0ms
+11:59:24 [404] /manifest.webmanifest 0ms
+11:59:27 [200] / 3ms
+11:59:27 [404] /manifest.webmanifest 0ms
+11:59:27 [404] /manifest.webmanifest 1ms
+11:59:28 [404] /manifest.webmanifest 0ms
+11:59:30 [200] /license 2ms
+11:59:30 [404] /manifest.webmanifest 0ms
+11:59:30 [404] /manifest.webmanifest 0ms
+12:00:15 [200] /license 17ms
+12:27:56 [200] / 21ms
+12:45:56 [200] / 7ms
+13:06:52 [200] / 4ms
+13:32:31 [200] / 4ms
+13:32:46 [200] /license 16ms
+13:33:16 [200] /license 1ms
+13:33:18 [200] /license 1ms
+13:33:19 [200] /license 1ms
+13:33:19 [200] /license 2ms
+13:33:20 [200] /license 1ms
+13:33:20 [200] /license 1ms
+13:33:20 [200] /license 2ms
+13:33:20 [200] /license 1ms
+^C⏎
+praxis-bsp on  main [!⇡] via  v24.14.0 took 17h37m29s
+❯ npm run dev
+
+> dir-website@0.0.1 dev
+> astro dev
+
+[vite] connected.
+13:33:39 [types] Generated 0ms
+13:33:39 [WARN] [content] Content config not loaded
+13:33:39 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.0.5 ready in 546 ms
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+13:33:39 watching for file changes...
+13:33:40 [200] /license 21ms
+13:33:40 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+13:33:40 [vite] ✨ optimized dependencies changed. reloading
+13:33:40 [200] /license 2ms
+13:33:45 [200] /license 2ms
+13:33:47 [200] /license 2ms
+13:33:50 [200] /accessibility 20ms
+13:34:30 [200] /license 16ms
+13:35:07 [200] /license 15ms
+13:37:14 [200] /license 17ms
+13:37:36 [200] /license 14ms
+13:37:56 [200] /license 15ms
+13:50:02 [200] /license 15ms
+15:04:16 [200] /license 36ms
+16:11:10 [200] /license 33ms
+17:01:12 Configuration file updated. Restarting...
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/chunks/config.js:22663:33)
+[vite] connected.
+17:01:12 [vite] Re-optimizing dependencies because vite config has changed
+17:01:12 [types] Generated 33ms
+17:01:12 [vite] Re-optimizing dependencies because vite config has changed
+17:01:28 [200] /license 19ms
+17:01:28 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+17:01:28 [vite] ✨ optimized dependencies changed. reloading
+17:01:29 [200] /license 2ms
+17:01:50 [200] /license 2ms
+^C⏎
+praxis-bsp on  main [!⇡] via  v24.14.0 took 3h28m14s
+❯ npm run dev
+
+> dir-website@0.0.1 dev
+> astro dev
+
+[vite] connected.
+17:01:54 [types] Generated 0ms
+17:01:54 [WARN] [content] Content config not loaded
+17:01:54 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.0.5 ready in 552 ms
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+17:01:54 watching for file changes...
+17:01:55 [200] /license 21ms
+17:01:55 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+17:01:55 [vite] ✨ optimized dependencies changed. reloading
+17:01:55 [200] /license 2ms
+17:02:01 [200] / 16ms
+17:02:06 [200] /ai-disclaimer 12ms
+17:06:35 [200] /terms 19ms
+17:08:02 [200] /license 2ms
+17:11:59 Configuration file updated. Restarting...
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/chunks/config.js:22663:33)
+[vite] connected.
+17:11:59 [vite] Re-optimizing dependencies because vite config has changed
+17:11:59 [types] Generated 43ms
+17:11:59 [vite] Re-optimizing dependencies because vite config has changed
+17:12:18 [200] /license 19ms
+17:12:18 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+17:12:18 [vite] ✨ optimized dependencies changed. reloading
+17:12:18 [200] /license 2ms
+17:13:33 Configuration file updated. Restarting...
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/chunks/config.js:22663:33)
+17:13:33 [200] /license 9ms
+[vite] connected.
+17:13:33 [vite] Re-optimizing dependencies because vite config has changed
+17:13:33 [types] Generated 24ms
+17:13:33 [vite] Re-optimizing dependencies because vite config has changed
+17:20:04 [200] /license 18ms
+17:20:05 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+17:20:05 [vite] ✨ optimized dependencies changed. reloading
+17:20:05 [200] /license 2ms
+17:20:48 [ERROR] Expected ")" but found "}"
+  Stack trace:
+    at /home/cdz/Documents/uni/recht/praxis-bsp/src/components/global/Footer.astro:62:211
+    [...] See full stack trace in the browser, or rerun with --verbose.
+17:21:10 [200] /license 14ms
+17:21:13 [200] / 15ms
+17:21:14 [200] /_image 286ms
+17:21:21 [404] /about 2ms
+17:21:42 [200] / 4ms
+17:21:43 [404] /about 1ms
+17:21:45 [200] / 4ms
+17:21:54 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:23:21 [200] / 22ms
+17:23:21 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:23:24 [200] / 3ms
+17:23:24 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:23:32 [200] / 15ms
+17:23:32 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:23:46 [200] / 14ms
+17:23:46 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:25:27 [200] / 15ms
+17:25:27 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:25:31 [200] /about 11ms
+17:25:31 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:25:32 [200] / 4ms
+17:25:32 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:25:36 [200] /ai-disclaimer 14ms
+17:25:36 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:25:37 [200] /accessibility 14ms
+17:25:38 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:25:39 [200] /license 10ms
+17:25:40 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:25:42 [200] /credits 13ms
+17:25:42 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:27:06 [watch] /src/styles/global.css
+17:27:06 [watch] /src/styles/global.css
+17:27:30 [watch] /src/styles/global.css
+17:27:30 [watch] /src/styles/global.css
+17:27:43 [watch] /src/styles/global.css
+17:27:43 [watch] /src/styles/global.css
+17:29:48 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 3ms
+17:29:49 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:29:53 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:30:09 [watch] src/components/global/Navigation.astro
+17:30:09 [200] /credits 16ms
+17:30:09 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:30:12 [200] / 16ms
+17:30:12 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:30:28 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:30:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:31:02 [200] / 22ms
+17:31:02 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:31:13 [200] /about 12ms
+17:31:13 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:31:15 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:31:21 [200] / 4ms
+17:31:21 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:31:21 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:31:24 [200] /about 2ms
+17:31:24 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:31:25 [200] /ai-disclaimer 12ms
+17:31:25 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:31:27 [200] /accessibility 11ms
+17:31:27 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:31:29 [200] / 4ms
+17:31:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:32:29 [200] / 5ms
+17:32:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:32:36 [ERROR] ReferenceError: Link is not defined
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/ai-disclaimer.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/ai-disclaimer.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+17:32:36 [ERROR] Link is not defined
+  Stack trace:
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/ai-disclaimer.astro:1:1)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+17:33:28 [watch] src/components/global/Navigation.astro
+17:33:28 [ERROR] ReferenceError: Link is not defined
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/ai-disclaimer.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/ai-disclaimer.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+17:33:28 [ERROR] Link is not defined
+  Stack trace:
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/ai-disclaimer.astro:1:1)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+17:33:35 [200] /ai-disclaimer 12ms
+17:33:35 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+17:34:36 [200] /ai-disclaimer 3ms
+17:34:36 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+^C⏎
+praxis-bsp on  main [!] via  v24.14.0 took 32m45s
+❯ npm run dev
+
+> dir-website@0.0.1 dev
+> astro dev
+
+[vite] connected.
+17:34:40 [types] Generated 0ms
+17:34:40 [WARN] [content] Content config not loaded
+17:34:40 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.0.5 ready in 583 ms
+┃ Local    http://localhost:4321/DIR/
+┃ Network  use --host to expose
+17:34:40 watching for file changes...
+17:34:42 [200] /ai-disclaimer 21ms
+17:34:42 [vite] ✨ new dependencies optimized: astro/runtime/client/dev-toolbar/entrypoint.js
+17:34:42 [vite] ✨ optimized dependencies changed. reloading
+17:34:42 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 2ms
+17:34:42 [200] /ai-disclaimer 3ms
+17:34:42 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+[vite] program reload
+[vite] An error happened during full reload
+Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+Error: Failed to load url astro:server-app.js (resolved id: astro:server-app.js). Does the file exist?
+    at loadAndTransform (file:///home/cdz/Documents/uni/recht/praxis-bsp/node_modules/vite/dist/node/chunks/config.js:22663:33)
+17:35:00 [200] /ai-disclaimer 42ms
+17:35:00 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+17:35:28 [200] / 19ms
+17:35:41 [200] /accessibility 12ms
+17:37:29 [200] /terms 15ms
+17:37:37 [200] /terms 13ms
+17:39:05 [watch] /src/styles/global.css
+17:39:05 [watch] /src/styles/global.css
+17:40:16 [200] /terms 13ms
+17:41:03 [200] /terms 13ms
+17:41:09 [200] /terms 11ms
+17:41:23 [watch] /src/styles/global.css
+17:41:23 [watch] /src/styles/global.css
+17:41:32 [watch] /src/styles/global.css
+17:41:32 [watch] /src/styles/global.css
+17:41:43 [200] /terms 13ms
+17:41:45 [200] /terms 12ms
+17:41:45 [200] /terms 14ms
+17:42:40 [200] /terms 11ms
+17:42:56 [watch] /src/styles/global.css
+17:42:56 [watch] /src/styles/global.css
+17:43:48 [200] /terms 13ms
+17:43:54 [200] /terms 11ms
+17:44:04 [200] /terms 12ms
+17:44:26 [200] / 5ms
+17:44:29 [200] /about 13ms
+17:44:30 [200] /ai-disclaimer 2ms
+17:44:32 [200] /accessibility 2ms
+17:44:34 [200] /license 12ms
+17:44:35 [200] /credits 11ms
+17:45:08 [200] /credits 12ms
+17:45:14 [200] /license 2ms
+17:45:17 [200] /credits 2ms
+17:45:22 [200] /terms 1ms
+17:47:09 [200] /terms 17ms
+17:47:14 [200] / 20ms
+17:47:15 [200] /about 13ms
+17:47:19 [200] /ai-disclaimer 16ms
+17:47:22 [200] /terms 1ms
+17:56:33 [200] /terms 18ms
+17:59:30 [200] /terms 14ms
+10:06:58 [200] /terms 36ms
+10:07:32 [200] /terms 14ms
+10:07:37 [200] /terms 17ms
+10:07:49 [200] /terms 14ms
+10:10:23 [200] /accessibility 11ms
+10:10:25 [200] /license 15ms
+10:10:29 [200] /credits 15ms
+10:10:35 [200] /terms 2ms
+10:10:48 [200] /terms 14ms
+10:11:30 [200] /terms 14ms
+10:12:14 [200] /terms 14ms
+10:13:14 [200] /terms 13ms
+10:14:17 [200] /terms 15ms
+10:35:06 [200] /terms 44ms
+10:42:00 [200] /terms 15ms
+10:44:12 [200] /terms 14ms
+10:58:13 [200] /terms 18ms
+10:58:43 [200] /terms 12ms
+11:31:29 [200] /terms 32ms
+11:37:54 [200] /terms 14ms
+11:45:31 [200] /terms 14ms
+11:45:39 [200] /terms 12ms
+11:46:04 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 22ms
+11:49:33 [200] /terms 27ms
+11:50:21 [200] /terms 26ms
+11:59:21 [200] /terms 17ms
+12:09:34 [200] /terms 17ms
+12:18:32 [200] /terms 26ms
+12:25:33 [200] /terms 19ms
+12:27:45 [200] /terms 16ms
+12:28:49 [200] /terms 19ms
+12:29:13 [200] /terms 17ms
+12:31:08 [200] /terms 17ms
+12:31:46 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 10ms
+12:47:01 [200] /terms 20ms
+12:47:01 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+12:48:02 [200] /terms 17ms
+12:48:02 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+12:48:26 [200] /terms 19ms
+12:48:26 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+12:49:11 [200] /terms 22ms
+12:49:11 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+12:50:56 [200] /terms 19ms
+12:51:00 [200] /terms 16ms
+12:51:04 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:25:12 [200] /login 20ms
+13:25:22 [200] /signup 16ms
+13:25:42 [200] /license 18ms
+13:25:46 [200] /license 2ms
+13:26:41 [200] /signup 17ms
+13:27:22 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:28:15 [200] /signup 17ms
+13:28:15 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:29:41 [200] /signup 18ms
+13:29:41 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:29:48 [200] /signup 22ms
+13:29:48 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 2ms
+13:30:24 [200] /signup 20ms
+13:30:24 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:31:47 [200] /signup 18ms
+13:31:47 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 3ms
+13:32:29 [200] /signup 17ms
+13:32:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:32:41 [200] /signup 15ms
+13:32:41 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:33:17 [ERROR] ReferenceError: Link is not defined
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/signup.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/signup.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+13:33:17 [ERROR] Link is not defined
+  Stack trace:
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/signup.astro:1:1)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+13:33:46 [200] /signup 22ms
+13:33:46 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:33:53 [200] /license 2ms
+13:33:53 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:10 [200] /license 3ms
+13:34:10 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:11 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:34:17 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:19 [200] /signup 18ms
+13:34:19 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:26 [200] /terms 2ms
+13:34:26 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:27 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:34:28 [404] /licence 0ms
+13:34:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:30 [404] /licence 0ms
+13:34:32 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:34 [200] /license 2ms
+13:34:34 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:39 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:43 [200] /signup 15ms
+13:34:43 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:45 [200] /license 3ms
+13:34:45 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:34:48 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:35:27 [200] /signup 21ms
+13:35:27 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:35:30 [200] /login 2ms
+13:35:30 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:35:31 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:35:43 [200] /signup 15ms
+13:35:43 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:35:55 [200] /login 2ms
+13:35:55 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:36:25 [200] /login 20ms
+13:36:25 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:36:49 [200] /login 16ms
+13:36:49 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:37:04 [200] /login 17ms
+13:37:04 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:37:35 [200] /login 24ms
+13:37:35 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:38:00 [200] /login 17ms
+13:38:00 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:38:29 [200] /login 18ms
+13:38:29 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:44:16 [200] /login 22ms
+13:44:16 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 2ms
+13:44:18 [200] /contact 18ms
+13:44:18 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:45:26 [200] /contact 18ms
+13:45:26 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:45:30 [200] /contact 18ms
+13:45:30 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:45:50 [200] /contact 21ms
+13:45:50 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:46:08 [200] /contact 16ms
+13:46:08 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:46:41 [200] /contact 17ms
+13:46:41 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:47:08 [200] /contact 15ms
+13:47:08 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:47:43 [200] /contact 17ms
+13:47:43 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:47:46 [200] /contact 18ms
+13:47:46 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:48:01 [200] /contact 16ms
+13:48:01 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:48:07 [200] /contact 17ms
+13:48:07 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:48:18 [200] /contact 14ms
+13:48:18 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:48:31 [200] /contact 17ms
+13:48:31 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:48:37 [200] /contact 15ms
+13:48:37 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:49:54 [200] /contact 19ms
+13:49:54 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:50:29 [200] /contact 22ms
+13:50:30 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:50:37 [200] /contact 18ms
+13:50:37 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:50:42 [200] /contact 24ms
+13:50:42 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:51:00 [200] /contact 20ms
+13:51:00 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:51:06 [200] /contact 19ms
+13:51:06 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:51:20 [200] POST /contact 3ms
+13:51:20 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:51:36 [200] POST /contact 20ms
+13:51:36 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:52:19 [200] POST /contact 3ms
+13:52:19 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:53:11 [200] / 40ms
+13:53:11 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:53:13 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:54:31 [200] POST /contact 17ms
+13:54:31 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:56:19 [200] POST /contact 20ms
+13:56:19 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:57:10 [200] POST /contact 18ms
+13:57:10 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+13:59:22 [200] POST /contact 21ms
+13:59:22 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:59:40 [200] POST /contact 17ms
+13:59:40 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+13:59:48 [200] POST /contact 19ms
+13:59:48 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+14:00:10 [200] POST /contact 18ms
+14:00:11 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+14:01:15 [200] POST /contact 2ms
+14:01:15 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:02:48 [200] POST /contact 2ms
+14:02:48 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:03:03 [200] /contact 2ms
+14:03:03 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:04:38 [200] /contact 19ms
+14:05:27 [200] /contact 22ms
+14:05:31 [200] /contact 15ms
+14:05:44 [200] /contact 15ms
+14:05:51 [200] /contact 18ms
+14:06:11 [200] /contact 15ms
+14:06:20 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:07:32 [200] /contact 15ms
+14:07:32 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:09:45 [200] /contact 22ms
+14:09:45 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:10:03 [200] /contact 19ms
+14:10:03 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:10:19 [watch] src/components/global/Navigation.astro
+14:10:19 [200] /contact 21ms
+14:10:20 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:11:44 [200] /contact 16ms
+14:11:45 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+14:12:19 [200] /contact 18ms
+14:12:19 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+14:13:36 [200] /contact 20ms
+14:13:36 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:10:53 [200] /contact 35ms
+15:10:56 [200] /imprint 25ms
+15:11:41 [200] /imprint 29ms
+15:14:55 [200] /imprint 17ms
+15:27:20 [200] /imprint 32ms
+15:28:02 [200] /imprint 18ms
+15:28:13 [200] /imprint 17ms
+15:28:20 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:28:58 [200] /imprint 18ms
+15:28:58 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:29:18 [200] /imprint 16ms
+15:29:18 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 1ms
+15:29:57 [200] /imprint 19ms
+15:29:57 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:33:03 [200] /imprint 20ms
+15:33:03 [404] /@id/astro/runtime/client/dev-toolbar/astro_runtime_client_dev-toolbar_entrypoint__js.js.map 0ms
+15:34:34 [200] /imprint 18ms
+15:39:07 [200] /imprint 27ms
+15:39:56 [200] /imprint 19ms
+15:40:48 [200] /imprint 25ms
+15:42:50 [200] /imprint 17ms
+15:43:12 [200] /imprint 16ms
+15:47:41 [200] /imprint 3ms
+[vite] program reload
+[vite] program reload
+15:47:47 [200] /imprint 13ms
+15:48:26 [200] /about 23ms
+15:48:58 [200] /about 20ms
+15:52:31 [200] /about 18ms
+15:53:16 [200] /about 23ms
+15:56:00 [200] /about 18ms
+15:57:56 [200] /about 18ms
+16:33:01 [200] /about 46ms
+16:35:46 [ERROR] ReferenceError: jingleSrc is not defined
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/about.astro:436:62)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/about.astro:1:1)
+    at new AstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:20:30)
+    at createAstroComponentInstance (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/astro/instance.js:72:20)
+    at renderAstroComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:359:48)
+    at renderComponent (/home/cdz/Documents/uni/recht/praxis-bsp/node_modules/astro/dist/runtime/server/render/component.js:380:12)
+16:35:46 [ERROR] jingleSrc is not defined
+  Stack trace:
+    at Object.default (/home/cdz/Documents/uni/recht/praxis-bsp/src/pages/about.astro:436:62)
+    [...] See full stack trace in the browser, or rerun with --verbose.
+16:36:01 [200] /about 18ms
+[vite] program reload
+16:36:15 [200] /about 29ms
+[vite] program reload
+16:36:15 [200] /about 22ms
+16:40:04 [200] /license 17ms
+16:43:28 [watch] src/pages/about.astro
+16:43:28 [200] /about 21ms
+16:43:38 [watch] src/pages/about.astro
+16:43:38 [200] /about 18ms
+16:44:23 [watch] src/pages/about.astro
+16:44:23 [200] /about 20ms
+16:45:24 [watch] src/pages/about.astro
+16:45:24 [200] /about 27ms
+16:46:34 [watch] src/pages/about.astro
+16:46:34 [200] /about 18ms
+16:46:53 [watch] src/pages/about.astro
+16:46:53 [200] /about 19ms
+16:47:18 [watch] src/pages/about.astro
+16:47:18 [200] /about 19ms
+16:47:29 [watch] src/pages/about.astro
+16:47:29 [200] /about 18ms
+17:01:18 [watch] src/pages/about.astro
+17:01:19 [200] /about 17ms
+17:01:26 [watch] src/pages/about.astro
+17:01:26 [200] /about 21ms
+17:14:38 [200] / 128ms
+17:16:34 [200] / 33ms
+17:16:53 [200] / 21ms
+17:18:14 [200] / 21ms
+17:18:33 [200] /about 18ms
+17:27:41 [watch] src/pages/about.astro
+17:27:41 [200] /about 38ms
+17:27:45 [watch] src/pages/about.astro
+17:27:45 [200] /about 22ms
+17:30:29 [watch] src/pages/about.astro
+17:30:29 [200] /about 21ms
+17:36:50 [watch] src/pages/about.astro
+17:36:50 [200] /about 26ms
+17:39:45 [watch] src/pages/about.astro
+17:39:45 [200] /about 19ms
+17:41:48 [watch] src/pages/about.astro
+17:41:48 [200] /about 16ms
+17:43:14 [200] /ai-disclaimer 18ms
+17:44:46 [200] /about 4ms
+17:45:37 [200] /about 6ms
+17:45:42 [200] / 19ms
+17:45:46 [200] /ai-disclaimer 19ms
+17:47:10 [200] /about 3ms
+17:49:41 [200] /about 4ms
+17:51:42 [watch] src/pages/about.astro
+17:51:42 [200] /about 21ms
+17:51:46 [200] /ai-disclaimer 21ms
+17:52:52 [200] /contact 17ms
+17:53:01 [200] /license 20ms
+17:54:12 [200] /credits 24ms
