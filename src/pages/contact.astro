@@ -1,0 +1,133 @@
+---
+// Fundations
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Text from "@/components/fundations/elements/Text.astro";
+import Button from "@/components/fundations/elements/Button.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import Link from "@/components/fundations/elements/Link.astro";
+---
+
+<BaseLayout>
+    <section>
+        <Wrapper variant="standard" class="py-20">
+            <div class="max-w-2xl mx-auto">
+                <Text
+                    tag="h1"
+                    variant="displaySM"
+                    class="tracking-tight font-semibold text-base-900"
+                >
+                    Kontaktformular
+                </Text>
+                <Wrapper variant="prose">
+                    <form action="#" method="POST" class="mx-auto mt-12">
+                        <div class="flex gap-4">
+                            <div class="flex-1">
+                                <label
+                                    class="text-sm text-base-500 font-medium"
+                                    for="first-name"
+                                >
+                                    Name
+                                </label>
+                                <div class="mt-2.5">
+                                    <input
+                                        type="text"
+                                        name="Name"
+                                        id="first-name"
+                                        autocomplete="given-name"
+                                        required
+                                        aria-required="true"
+                                        aria-describedby="first-name-error"
+                                        class="block w-full h-10 px-4 py-2 text-sm text-accent-700 duration-300 bg-white border border-transparent rounded-lg appearance-none ring-1 ring-base-200 placeholder-base-400 focus:border-base-300 focus:bg-transparent focus:outline-none focus:ring-accent-700 focus:ring-offset-2 focus:ring-2 sm:text-sm"
+                                    />
+                                    <span
+                                        id="first-name-error"
+                                        class="text-red-600 text-sm hidden"
+                                    >
+                                        Bitte wähle einen Benutzernamen.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="flex-1">
+                                <label
+                                    class="text-sm text-base-500 font-medium"
+                                    for="email"
+                                >
+                                    E-Mail
+                                </label>
+                                <div class="mt-2.5">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        autocomplete="email"
+                                        required
+                                        aria-required="true"
+                                        aria-describedby="email-error"
+                                        class="block w-full h-10 px-4 py-2 text-sm text-accent-700 duration-300 bg-white border border-transparent rounded-lg appearance-none ring-1 ring-base-200 placeholder-base-400 focus:border-base-300 focus:bg-transparent focus:outline-none focus:ring-accent-700 focus:ring-offset-2 focus:ring-2 sm:text-sm"
+                                    />
+                                    <span
+                                        id="email-error"
+                                        class="text-red-600 text-sm hidden"
+                                    >
+                                        Bitte gib eine valide E-Mail ein.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <label
+                                class="text-sm text-base-500 font-medium"
+                                for="message"
+                            >
+                                Nachricht
+                            </label>
+                            <div class="mt-2.5 h-52">
+                                <textarea
+                                    name="message"
+                                    id="message"
+                                    autocomplete="message"
+                                    required
+                                    aria-required="true"
+                                    aria-describedby="message-error"
+                                    class="block w-full h-full px-4 py-2 text-sm text-accent-700 duration-300 bg-white border border-transparent rounded-lg appearance-none ring-1 ring-base-200 placeholder-base-400 focus:border-base-300 focus:bg-transparent focus:outline-none focus:ring-accent-700 focus:ring-offset-2 focus:ring-2 sm:text-sm"
+                                ></textarea>
+                                <span
+                                    id="message-error"
+                                    class="text-red-600 text-sm hidden"
+                                >
+                                    Bitte gib eine Nachricht ein.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-4 gap-3">
+                            <input
+                                required
+                                id="agreement"
+                                name="agreement"
+                                type="checkbox"
+                                class="size-4 rounded border-base-300 text-accent-600 focus:ring-accent-600 shadow"
+                            />
+                            <label
+                                class="undefined block text-sm text-base-500"
+                                for="agreement"
+                            >
+                                Hierbei stimmst du unserer
+                                <Link href="/terms">
+                                    Datenschutzerklärung
+                                </Link>
+                                zu.
+                            </label>
+                        </div>
+                        <Button
+                            variant="default"
+                            size="base"
+                            class="mt-8 w-full"
+                        >
+                            Absenden
+                        </Button>
+                    </form>
+                </Wrapper>
+            </div>
+        </Wrapper>
+    </section>
+</BaseLayout>
